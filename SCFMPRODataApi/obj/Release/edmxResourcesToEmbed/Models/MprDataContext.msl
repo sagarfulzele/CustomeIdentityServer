@@ -1,0 +1,1624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MprDataModelStoreContainer" CdmEntityContainer="MprDataEntities">
+    <EntitySetMapping Name="C__EFMigrationsHistory">
+      <EntityTypeMapping TypeName="MprDataModel.C__EFMigrationsHistory">
+        <MappingFragment StoreEntitySet="__EFMigrationsHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoleClaims">
+      <EntityTypeMapping TypeName="MprDataModel.AspNetRoleClaim">
+        <MappingFragment StoreEntitySet="AspNetRoleClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="MprDataModel.AspNetRole">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ConcurrencyStamp" ColumnName="ConcurrencyStamp" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NormalizedName" ColumnName="NormalizedName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="MprDataModel.AspNetUserClaim">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="MprDataModel.AspNetUserLogin">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="ProviderDisplayName" ColumnName="ProviderDisplayName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="MprDataModel.AspNetUser">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="ConcurrencyStamp" ColumnName="ConcurrencyStamp" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="LockoutEnd" ColumnName="LockoutEnd" />
+          <ScalarProperty Name="NormalizedEmail" ColumnName="NormalizedEmail" />
+          <ScalarProperty Name="NormalizedUserName" ColumnName="NormalizedUserName" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="IsEnabled" ColumnName="IsEnabled" />
+          <ScalarProperty Name="IsMuted" ColumnName="IsMuted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdAllComponentsFromSchemes">
+      <EntityTypeMapping TypeName="MprDataModel.mdAllComponentsFromScheme">
+        <MappingFragment StoreEntitySet="mdAllComponentsFromSchemes">
+          <ScalarProperty Name="PathID" ColumnName="PathID" />
+          <ScalarProperty Name="Catalog" ColumnName="Catalog" />
+          <ScalarProperty Name="Make" ColumnName="Make" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="TagName" ColumnName="TagName" />
+          <ScalarProperty Name="Family" ColumnName="Family" />
+          <ScalarProperty Name="Loc" ColumnName="Loc" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="ComponentGroup" ColumnName="ComponentGroup" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Hdl" ColumnName="Hdl" />
+          <ScalarProperty Name="DwgName" ColumnName="DwgName" />
+          <ScalarProperty Name="PentaItemID" ColumnName="PentaItemID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdAllTerminalBlocksFromSchemes">
+      <EntityTypeMapping TypeName="MprDataModel.mdAllTerminalBlocksFromScheme">
+        <MappingFragment StoreEntitySet="mdAllTerminalBlocksFromSchemes">
+          <ScalarProperty Name="PathID" ColumnName="PathID" />
+          <ScalarProperty Name="Catalog" ColumnName="Catalog" />
+          <ScalarProperty Name="Make" ColumnName="Make" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="TagName" ColumnName="TagName" />
+          <ScalarProperty Name="Loc" ColumnName="Loc" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Hdl" ColumnName="Hdl" />
+          <ScalarProperty Name="DwgName" ColumnName="DwgName" />
+          <ScalarProperty Name="PentaItemID" ColumnName="PentaItemID" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdAnnunciators">
+      <EntityTypeMapping TypeName="MprDataModel.mdAnnunciator">
+        <MappingFragment StoreEntitySet="mdAnnunciators">
+          <ScalarProperty Name="WindowsCount" ColumnName="WindowsCount" />
+          <ScalarProperty Name="ColorDescription" ColumnName="ColorDescription" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdArrangementAcLoopRows">
+      <EntityTypeMapping TypeName="MprDataModel.mdArrangementAcLoopRow">
+        <MappingFragment StoreEntitySet="mdArrangementAcLoopRows">
+          <ScalarProperty Name="SubstationID" ColumnName="SubstationID" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="ArrangementType" ColumnName="ArrangementType" />
+          <ScalarProperty Name="Phases" ColumnName="Phases" />
+          <ScalarProperty Name="LoopStartingPanelID" ColumnName="LoopStartingPanelID" />
+          <ScalarProperty Name="LoopEndingPanelID" ColumnName="LoopEndingPanelID" />
+          <ScalarProperty Name="AcSupplyInPanelId" ColumnName="AcSupplyInPanelId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdArrangementAnnunciationRows">
+      <EntityTypeMapping TypeName="MprDataModel.mdArrangementAnnunciationRow">
+        <MappingFragment StoreEntitySet="mdArrangementAnnunciationRows">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="SubstationID" ColumnName="SubstationID" />
+          <ScalarProperty Name="ArrangementType" ColumnName="ArrangementType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdArrangementPanelRows">
+      <EntityTypeMapping TypeName="MprDataModel.mdArrangementPanelRow">
+        <MappingFragment StoreEntitySet="mdArrangementPanelRows">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="SubstationID" ColumnName="SubstationID" />
+          <ScalarProperty Name="ArrangementType" ColumnName="ArrangementType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdArrangementsIndicationRows">
+      <EntityTypeMapping TypeName="MprDataModel.mdArrangementsIndicationRow">
+        <MappingFragment StoreEntitySet="mdArrangementsIndicationRows">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="SubstationID" ColumnName="SubstationID" />
+          <ScalarProperty Name="ArrangementType" ColumnName="ArrangementType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdArrangementSynchCircuitRows">
+      <EntityTypeMapping TypeName="MprDataModel.mdArrangementSynchCircuitRow">
+        <MappingFragment StoreEntitySet="mdArrangementSynchCircuitRows">
+          <ScalarProperty Name="SubstationID" ColumnName="SubstationID" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="SyncPanelId" ColumnName="SyncPanelId" />
+          <ScalarProperty Name="FerruleText" ColumnName="FerruleText" />
+          <ScalarProperty Name="PossitiveFerruleNo" ColumnName="PossitiveFerruleNo" />
+          <ScalarProperty Name="NegativeFerruleNo" ColumnName="NegativeFerruleNo" />
+          <ScalarProperty Name="ArrangementType" ColumnName="ArrangementType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdAuxiliaryComponents">
+      <EntityTypeMapping TypeName="MprDataModel.mdAuxiliaryComponent">
+        <MappingFragment StoreEntitySet="mdAuxiliaryComponents">
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdAuxiliaryRelays">
+      <EntityTypeMapping TypeName="MprDataModel.mdAuxiliaryRelay">
+        <MappingFragment StoreEntitySet="mdAuxiliaryRelays">
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdBays">
+      <EntityTypeMapping TypeName="MprDataModel.mdBay">
+        <MappingFragment StoreEntitySet="mdBays">
+          <ScalarProperty Name="BayID" ColumnName="BayID" />
+          <ScalarProperty Name="VoltageLevelID" ColumnName="VoltageLevelID" />
+          <ScalarProperty Name="BayType_id" ColumnName="BayType_id" />
+          <ScalarProperty Name="BayNo" ColumnName="BayNo" />
+          <ScalarProperty Name="BayName" ColumnName="BayName" />
+          <ScalarProperty Name="Bus1" ColumnName="Bus1" />
+          <ScalarProperty Name="Bus2" ColumnName="Bus2" />
+          <ScalarProperty Name="Bus3" ColumnName="Bus3" />
+          <ScalarProperty Name="Position1" ColumnName="Position1" />
+          <ScalarProperty Name="Position2" ColumnName="Position2" />
+          <ScalarProperty Name="Position3" ColumnName="Position3" />
+          <ScalarProperty Name="Bus4" ColumnName="Bus4" />
+          <ScalarProperty Name="Position4" ColumnName="Position4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdBPanels">
+      <EntityTypeMapping TypeName="MprDataModel.mdBPanel">
+        <MappingFragment StoreEntitySet="mdBPanels">
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="DummyCol" ColumnName="DummyCol" />
+          <ScalarProperty Name="BayID" ColumnName="BayID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdCircuitBreakers">
+      <EntityTypeMapping TypeName="MprDataModel.mdCircuitBreaker">
+        <MappingFragment StoreEntitySet="mdCircuitBreakers">
+          <ScalarProperty Name="PrimaryEquipmentId" ColumnName="PrimaryEquipmentId" />
+          <ScalarProperty Name="NominalCurrent" ColumnName="NominalCurrent" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Spec" ColumnName="Spec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdConsumableItems">
+      <EntityTypeMapping TypeName="MprDataModel.mdConsumableItem">
+        <MappingFragment StoreEntitySet="mdConsumableItems">
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Units" ColumnName="Units" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdContactDetails">
+      <EntityTypeMapping TypeName="MprDataModel.mdContactDetail">
+        <MappingFragment StoreEntitySet="mdContactDetails">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FaxNo" ColumnName="FaxNo" />
+          <ScalarProperty Name="OfficePhone" ColumnName="OfficePhone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="ContactDetailsID" ColumnName="ContactDetailsID" />
+          <ScalarProperty Name="LogoDetailID" ColumnName="LogoDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdContractPrimaryDeliverables">
+      <EntityTypeMapping TypeName="MprDataModel.mdContractPrimaryDeliverable">
+        <MappingFragment StoreEntitySet="mdContractPrimaryDeliverables">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="StationAndVoltage" ColumnName="StationAndVoltage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdContractSecondaryDeliverables">
+      <EntityTypeMapping TypeName="MprDataModel.mdContractSecondaryDeliverable">
+        <MappingFragment StoreEntitySet="mdContractSecondaryDeliverables">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="StationAndVoltage" ColumnName="StationAndVoltage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdCores">
+      <EntityTypeMapping TypeName="MprDataModel.mdCore">
+        <MappingFragment StoreEntitySet="mdCores">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NoOfPrimary" ColumnName="NoOfPrimary" />
+          <ScalarProperty Name="Ratio" ColumnName="Ratio" />
+          <ScalarProperty Name="Primary1" ColumnName="Primary1" />
+          <ScalarProperty Name="Primary2" ColumnName="Primary2" />
+          <ScalarProperty Name="Primary3" ColumnName="Primary3" />
+          <ScalarProperty Name="Primary4" ColumnName="Primary4" />
+          <ScalarProperty Name="Primary5" ColumnName="Primary5" />
+          <ScalarProperty Name="Primary6" ColumnName="Primary6" />
+          <ScalarProperty Name="Secondary" ColumnName="Secondary" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="AccuracyLimitFactor" ColumnName="AccuracyLimitFactor" />
+          <ScalarProperty Name="Burden" ColumnName="Burden" />
+          <ScalarProperty Name="KneePoint" ColumnName="KneePoint" />
+          <ScalarProperty Name="MagCurrent" ColumnName="MagCurrent" />
+          <ScalarProperty Name="CtResistence" ColumnName="CtResistence" />
+          <ScalarProperty Name="Function" ColumnName="Function" />
+          <ScalarProperty Name="CoreID" ColumnName="CoreID" />
+          <ScalarProperty Name="PrimaryEquipmentId" ColumnName="PrimaryEquipmentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdCurrentTransformers">
+      <EntityTypeMapping TypeName="MprDataModel.mdCurrentTransformer">
+        <MappingFragment StoreEntitySet="mdCurrentTransformers">
+          <ScalarProperty Name="DummyColumn" ColumnName="DummyColumn" />
+          <ScalarProperty Name="PrimaryEquipmentId" ColumnName="PrimaryEquipmentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdCustomerDeliverableDates">
+      <EntityTypeMapping TypeName="MprDataModel.mdCustomerDeliverableDate">
+        <MappingFragment StoreEntitySet="mdCustomerDeliverableDates">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CustomerDeliverableVoltageID" ColumnName="CustomerDeliverableVoltageID" />
+          <ScalarProperty Name="ExpectedDate" ColumnName="ExpectedDate" />
+          <ScalarProperty Name="DateOfReceived" ColumnName="DateOfReceived" />
+          <ScalarProperty Name="CustomerDeliverableID" ColumnName="CustomerDeliverableID" />
+          <ScalarProperty Name="NotApplicable" ColumnName="NotApplicable" />
+          <ScalarProperty Name="Planned" ColumnName="Planned" />
+          <ScalarProperty Name="Received" ColumnName="Received" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdCustomerDeliverableVoltages">
+      <EntityTypeMapping TypeName="MprDataModel.mdCustomerDeliverableVoltage">
+        <MappingFragment StoreEntitySet="mdCustomerDeliverableVoltages">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Voltage" ColumnName="Voltage" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdDoubleLogoes">
+      <EntityTypeMapping TypeName="MprDataModel.mdDoubleLogo">
+        <MappingFragment StoreEntitySet="mdDoubleLogoes">
+          <ScalarProperty Name="LogoID" ColumnName="LogoID" />
+          <ScalarProperty Name="LogoDetailID1" ColumnName="LogoDetailID1" />
+          <ScalarProperty Name="LogoDetailID2" ColumnName="LogoDetailID2" />
+          <ScalarProperty Name="DoubleLogoID" ColumnName="DoubleLogoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdEarthSwitches">
+      <EntityTypeMapping TypeName="MprDataModel.mdEarthSwitch">
+        <MappingFragment StoreEntitySet="mdEarthSwitches">
+          <ScalarProperty Name="PrimaryEquipmentId" ColumnName="PrimaryEquipmentId" />
+          <ScalarProperty Name="NominalCurrent" ColumnName="NominalCurrent" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Spec" ColumnName="Spec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdExternalStakeHolders">
+      <EntityTypeMapping TypeName="MprDataModel.mdExternalStakeHolder">
+        <MappingFragment StoreEntitySet="mdExternalStakeHolders">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProjectRole" ColumnName="ProjectRole" />
+          <ScalarProperty Name="StakeHolderContactID" ColumnName="StakeHolderContactID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdFileTimes">
+      <EntityTypeMapping TypeName="MprDataModel.mdFileTime">
+        <MappingFragment StoreEntitySet="mdFileTimes">
+          <ScalarProperty Name="PathID" ColumnName="PathID" />
+          <ScalarProperty Name="DrawingFile" ColumnName="DrawingFile" />
+          <ScalarProperty Name="LastSavedTime" ColumnName="LastSavedTime" />
+          <ScalarProperty Name="FileTimeID" ColumnName="FileTimeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdInternalStakeHolders">
+      <EntityTypeMapping TypeName="MprDataModel.mdInternalStakeHolder">
+        <MappingFragment StoreEntitySet="mdInternalStakeHolders">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProjectRole" ColumnName="ProjectRole" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="AspNetUserId" ColumnName="AspNetUserId" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdIsolators">
+      <EntityTypeMapping TypeName="MprDataModel.mdIsolator">
+        <MappingFragment StoreEntitySet="mdIsolators">
+          <ScalarProperty Name="PrimaryEquipmentId" ColumnName="PrimaryEquipmentId" />
+          <ScalarProperty Name="NominalCurrent" ColumnName="NominalCurrent" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Spec" ColumnName="Spec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdLogoDetails">
+      <EntityTypeMapping TypeName="MprDataModel.mdLogoDetail">
+        <MappingFragment StoreEntitySet="mdLogoDetails">
+          <ScalarProperty Name="LogoDetailID" ColumnName="LogoDetailID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="AddToTemplate" ColumnName="AddToTemplate" />
+          <ScalarProperty Name="LogoPath" ColumnName="LogoPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdMainRelays">
+      <EntityTypeMapping TypeName="MprDataModel.mdMainRelay">
+        <MappingFragment StoreEntitySet="mdMainRelays">
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdMasterProjectSchedules">
+      <EntityTypeMapping TypeName="MprDataModel.mdMasterProjectSchedule">
+        <MappingFragment StoreEntitySet="mdMasterProjectSchedules">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DesignStart" ColumnName="DesignStart" />
+          <ScalarProperty Name="SchematicDrawingSubmission" ColumnName="SchematicDrawingSubmission" />
+          <ScalarProperty Name="ManufacturingDocs" ColumnName="ManufacturingDocs" />
+          <ScalarProperty Name="ManufacturingStart" ColumnName="ManufacturingStart" />
+          <ScalarProperty Name="ManufacturingEnd" ColumnName="ManufacturingEnd" />
+          <ScalarProperty Name="InternalTestingStart" ColumnName="InternalTestingStart" />
+          <ScalarProperty Name="InternalTestingEnd" ColumnName="InternalTestingEnd" />
+          <ScalarProperty Name="FatStart" ColumnName="FatStart" />
+          <ScalarProperty Name="FatEnd" ColumnName="FatEnd" />
+          <ScalarProperty Name="Delivery" ColumnName="Delivery" />
+          <ScalarProperty Name="FatBilling" ColumnName="FatBilling" />
+          <ScalarProperty Name="CommissioningStart" ColumnName="CommissioningStart" />
+          <ScalarProperty Name="CommissioningEnd" ColumnName="CommissioningEnd" />
+          <ScalarProperty Name="CommissioningBilling" ColumnName="CommissioningBilling" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="PowerLevelDescription" ColumnName="PowerLevelDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdMeters">
+      <EntityTypeMapping TypeName="MprDataModel.mdMeter">
+        <MappingFragment StoreEntitySet="mdMeters">
+          <ScalarProperty Name="CtrPtr" ColumnName="CtrPtr" />
+          <ScalarProperty Name="Scale" ColumnName="Scale" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdPanelComponents">
+      <EntityTypeMapping TypeName="MprDataModel.mdPanelComponent">
+        <MappingFragment StoreEntitySet="mdPanelComponents">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Make" ColumnName="Make" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Catalog" ColumnName="Catalog" />
+          <ScalarProperty Name="TagName" ColumnName="TagName" />
+          <ScalarProperty Name="Family" ColumnName="Family" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="PR_NO" ColumnName="PR_NO" />
+          <ScalarProperty Name="GTN_NO" ColumnName="GTN_NO" />
+          <ScalarProperty Name="DwgName" ColumnName="DwgName" />
+          <ScalarProperty Name="Handle" ColumnName="Handle" />
+          <ScalarProperty Name="FreeIssued" ColumnName="FreeIssued" />
+          <ScalarProperty Name="ScheeduleHItemID" ColumnName="ScheeduleHItemID" />
+          <ScalarProperty Name="Spare" ColumnName="Spare" />
+          <ScalarProperty Name="PentaItemID" ColumnName="PentaItemID" />
+          <ScalarProperty Name="Approved" ColumnName="Approved" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdPanelFunctions">
+      <EntityTypeMapping TypeName="MprDataModel.mdPanelFunction">
+        <MappingFragment StoreEntitySet="mdPanelFunctions">
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="FunctionType" ColumnName="FunctionType" />
+          <ScalarProperty Name="Make" ColumnName="Make" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Specification" ColumnName="Specification" />
+          <ScalarProperty Name="CatalogNumber" ColumnName="CatalogNumber" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="PanelFunctionID" ColumnName="PanelFunctionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdPanelFunctionsSubs">
+      <EntityTypeMapping TypeName="MprDataModel.mdPanelFunctionsSub">
+        <MappingFragment StoreEntitySet="mdPanelFunctionsSubs">
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="FunctionType" ColumnName="FunctionType" />
+          <ScalarProperty Name="Make" ColumnName="Make" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Specification" ColumnName="Specification" />
+          <ScalarProperty Name="CatalogNumber" ColumnName="CatalogNumber" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="PanelFunctionID" ColumnName="PanelFunctionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdPanels">
+      <EntityTypeMapping TypeName="MprDataModel.mdPanel">
+        <MappingFragment StoreEntitySet="mdPanels">
+          <ScalarProperty Name="PanelType_id" ColumnName="PanelType_id" />
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="PanelNo" ColumnName="PanelNo" />
+          <ScalarProperty Name="DwgNo" ColumnName="DwgNo" />
+          <ScalarProperty Name="WiringScheduleDwgNo" ColumnName="WiringScheduleDwgNo" />
+          <ScalarProperty Name="SipTbGroup" ColumnName="SipTbGroup" />
+          <ScalarProperty Name="CableScheduleDwgNo" ColumnName="CableScheduleDwgNo" />
+          <ScalarProperty Name="ACPhase" ColumnName="ACPhase" />
+          <ScalarProperty Name="BusBarProtection" ColumnName="BusBarProtection" />
+          <ScalarProperty Name="SyncCircuit" ColumnName="SyncCircuit" />
+          <ScalarProperty Name="IsSupplyByPSI" ColumnName="IsSupplyByPSI" />
+          <ScalarProperty Name="AnnCircuit" ColumnName="AnnCircuit" />
+          <ScalarProperty Name="IndCircuit" ColumnName="IndCircuit" />
+          <ScalarProperty Name="SIP_Group" ColumnName="SIP_Group" />
+          <ScalarProperty Name="TB_Group" ColumnName="TB_Group" />
+          <ScalarProperty Name="BusVT1" ColumnName="BusVT1" />
+          <ScalarProperty Name="BusVT2" ColumnName="BusVT2" />
+          <ScalarProperty Name="VTWireNo1" ColumnName="VTWireNo1" />
+          <ScalarProperty Name="VTWireNo2" ColumnName="VTWireNo2" />
+          <ScalarProperty Name="MCBTripWireNo1" ColumnName="MCBTripWireNo1" />
+          <ScalarProperty Name="MCBTripWireNo2" ColumnName="MCBTripWireNo2" />
+          <ScalarProperty Name="PanelSizeID" ColumnName="PanelSizeID" />
+          <ScalarProperty Name="PentaID" ColumnName="PentaID" />
+          <ScalarProperty Name="IndArrOrderNo" ColumnName="IndArrOrderNo" />
+          <ScalarProperty Name="SyncArrOrderNo" ColumnName="SyncArrOrderNo" />
+          <ScalarProperty Name="AcArrOrderNo" ColumnName="AcArrOrderNo" />
+          <ScalarProperty Name="AnnArrOrderNo" ColumnName="AnnArrOrderNo" />
+          <ScalarProperty Name="PanelArrOrderNo" ColumnName="PanelArrOrderNo" />
+          <ScalarProperty Name="IndArrRowId" ColumnName="IndArrRowId" />
+          <ScalarProperty Name="SyncArrRowId" ColumnName="SyncArrRowId" />
+          <ScalarProperty Name="ACArrRowId" ColumnName="ACArrRowId" />
+          <ScalarProperty Name="AnnArrRowId" ColumnName="AnnArrRowId" />
+          <ScalarProperty Name="AcSupplyFromPanelID" ColumnName="AcSupplyFromPanelID" />
+          <ScalarProperty Name="PanelArrRowId" ColumnName="PanelArrRowId" />
+          <ScalarProperty Name="SyncLeftNegativeFerrule" ColumnName="SyncLeftNegativeFerrule" />
+          <ScalarProperty Name="SyncLeftPossitveFerrule" ColumnName="SyncLeftPossitveFerrule" />
+          <ScalarProperty Name="SyncRightNegativeFerrule" ColumnName="SyncRightNegativeFerrule" />
+          <ScalarProperty Name="SyncRightPossitveFerrule" ColumnName="SyncRightPossitveFerrule" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdPanelSizes">
+      <EntityTypeMapping TypeName="MprDataModel.mdPanelSize">
+        <MappingFragment StoreEntitySet="mdPanelSizes">
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="Depth" ColumnName="Depth" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Enclosure" ColumnName="Enclosure" />
+          <ScalarProperty Name="EndPlatesQty" ColumnName="EndPlatesQty" />
+          <ScalarProperty Name="PanelSizeID" ColumnName="PanelSizeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdPanelSizesSubs">
+      <EntityTypeMapping TypeName="MprDataModel.mdPanelSizesSub">
+        <MappingFragment StoreEntitySet="mdPanelSizesSubs">
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="Depth" ColumnName="Depth" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Enclosure" ColumnName="Enclosure" />
+          <ScalarProperty Name="EndPlatesQty" ColumnName="EndPlatesQty" />
+          <ScalarProperty Name="PanelSizeID" ColumnName="PanelSizeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdPanelsSubs">
+      <EntityTypeMapping TypeName="MprDataModel.mdPanelsSub">
+        <MappingFragment StoreEntitySet="mdPanelsSubs">
+          <ScalarProperty Name="SubstationID" ColumnName="SubstationID" />
+          <ScalarProperty Name="PanelType" ColumnName="PanelType" />
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="PanelNo" ColumnName="PanelNo" />
+          <ScalarProperty Name="DwgNo" ColumnName="DwgNo" />
+          <ScalarProperty Name="WiringScheduleDwgNo" ColumnName="WiringScheduleDwgNo" />
+          <ScalarProperty Name="SipTbGroup" ColumnName="SipTbGroup" />
+          <ScalarProperty Name="CableScheduleDwgNo" ColumnName="CableScheduleDwgNo" />
+          <ScalarProperty Name="ACPhase" ColumnName="ACPhase" />
+          <ScalarProperty Name="BusBarProtection" ColumnName="BusBarProtection" />
+          <ScalarProperty Name="SyncCircuit" ColumnName="SyncCircuit" />
+          <ScalarProperty Name="IsSupplyByPSI" ColumnName="IsSupplyByPSI" />
+          <ScalarProperty Name="AnnCircuit" ColumnName="AnnCircuit" />
+          <ScalarProperty Name="IndCircuit" ColumnName="IndCircuit" />
+          <ScalarProperty Name="SIP_Group" ColumnName="SIP_Group" />
+          <ScalarProperty Name="TB_Group" ColumnName="TB_Group" />
+          <ScalarProperty Name="PentaID" ColumnName="PentaID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdPowerTransformers">
+      <EntityTypeMapping TypeName="MprDataModel.mdPowerTransformer">
+        <MappingFragment StoreEntitySet="mdPowerTransformers">
+          <ScalarProperty Name="PrimaryEquipmentId" ColumnName="PrimaryEquipmentId" />
+          <ScalarProperty Name="Impd" ColumnName="Impd" />
+          <ScalarProperty Name="NoOfWinding" ColumnName="NoOfWinding" />
+          <ScalarProperty Name="PrimaryCurrentUnit" ColumnName="PrimaryCurrentUnit" />
+          <ScalarProperty Name="PrimaryCurrentValue" ColumnName="PrimaryCurrentValue" />
+          <ScalarProperty Name="PrimaryVoltageUnit" ColumnName="PrimaryVoltageUnit" />
+          <ScalarProperty Name="PrimaryVoltageValue" ColumnName="PrimaryVoltageValue" />
+          <ScalarProperty Name="RatingUnit" ColumnName="RatingUnit" />
+          <ScalarProperty Name="RatingValue" ColumnName="RatingValue" />
+          <ScalarProperty Name="SecondaryCurrentUnit" ColumnName="SecondaryCurrentUnit" />
+          <ScalarProperty Name="SecondaryCurrentValue" ColumnName="SecondaryCurrentValue" />
+          <ScalarProperty Name="SecondaryVoltageUnit" ColumnName="SecondaryVoltageUnit" />
+          <ScalarProperty Name="SecondaryVoltageValue" ColumnName="SecondaryVoltageValue" />
+          <ScalarProperty Name="TertiaryVoltageUnit" ColumnName="TertiaryVoltageUnit" />
+          <ScalarProperty Name="TertiaryVoltageValue" ColumnName="TertiaryVoltageValue" />
+          <ScalarProperty Name="VectorGroup" ColumnName="VectorGroup" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdPRDatas">
+      <EntityTypeMapping TypeName="MprDataModel.mdPRData">
+        <MappingFragment StoreEntitySet="mdPRDatas">
+          <ScalarProperty Name="PanelType" ColumnName="PanelType" />
+          <ScalarProperty Name="PathID" ColumnName="PathID" />
+          <ScalarProperty Name="ExtractMaterialFromLoc" ColumnName="ExtractMaterialFromLoc" />
+          <ScalarProperty Name="PanelLoc" ColumnName="PanelLoc" />
+          <ScalarProperty Name="UseOnlyExtractConsumables" ColumnName="UseOnlyExtractConsumables" />
+          <ScalarProperty Name="PanelParentID" ColumnName="PanelParentID" />
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="IncludeInReport" ColumnName="IncludeInReport" />
+          <ScalarProperty Name="Family" ColumnName="Family" />
+          <ScalarProperty Name="HasErr" ColumnName="HasErr" />
+          <ScalarProperty Name="MprPanelID" ColumnName="MprPanelID" />
+          <ScalarProperty Name="ParentType" ColumnName="ParentType" />
+          <ScalarProperty Name="PR_NO" ColumnName="PR_NO" />
+          <ScalarProperty Name="GTN_NO" ColumnName="GTN_NO" />
+          <ScalarProperty Name="SchemeRefreshedOnDateTime" ColumnName="SchemeRefreshedOnDateTime" />
+          <ScalarProperty Name="PrDataId" ColumnName="PrDataId" />
+          <ScalarProperty Name="SubstationID" ColumnName="SubstationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdPrimaryEquipments">
+      <EntityTypeMapping TypeName="MprDataModel.mdPrimaryEquipment">
+        <MappingFragment StoreEntitySet="mdPrimaryEquipments">
+          <ScalarProperty Name="PrimaryEquipmentId" ColumnName="PrimaryEquipmentId" />
+          <ScalarProperty Name="Tag" ColumnName="Tag" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+          <ScalarProperty Name="Approval" ColumnName="Approval" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DrawingNumber" ColumnName="DrawingNumber" />
+          <ScalarProperty Name="AddedInProject" ColumnName="AddedInProject" />
+          <ScalarProperty Name="IsOptional" ColumnName="IsOptional" />
+          <ScalarProperty Name="PsiStandardAttribute" ColumnName="PsiStandardAttribute" />
+          <ScalarProperty Name="BayID" ColumnName="BayID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdProjectLogoes">
+      <EntityTypeMapping TypeName="MprDataModel.mdProjectLogo">
+        <MappingFragment StoreEntitySet="mdProjectLogoes">
+          <ScalarProperty Name="LogoID" ColumnName="LogoID" />
+          <ScalarProperty Name="LogoType" ColumnName="LogoType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdProjects">
+      <EntityTypeMapping TypeName="MprDataModel.mdProject">
+        <MappingFragment StoreEntitySet="mdProjects">
+          <ScalarProperty Name="ExternalKickOffDate" ColumnName="ExternalKickOffDate" />
+          <ScalarProperty Name="EngineeringManager_AspNetUserId" ColumnName="EngineeringManager_AspNetUserId" />
+          <ScalarProperty Name="Notification" ColumnName="Notification" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="MprCheckedOn" ColumnName="MprCheckedOn" />
+          <ScalarProperty Name="MprApprovedOn" ColumnName="MprApprovedOn" />
+          <ScalarProperty Name="MprCreatedOn" ColumnName="MprCreatedOn" />
+          <ScalarProperty Name="ProjectTitle4" ColumnName="ProjectTitle4" />
+          <ScalarProperty Name="ProjectTitle3" ColumnName="ProjectTitle3" />
+          <ScalarProperty Name="ProjectTitle2" ColumnName="ProjectTitle2" />
+          <ScalarProperty Name="ProjectTitle1" ColumnName="ProjectTitle1" />
+          <ScalarProperty Name="PsiProjectCode" ColumnName="PsiProjectCode" />
+          <ScalarProperty Name="ContractNumber" ColumnName="ContractNumber" />
+          <ScalarProperty Name="TenderNumber" ColumnName="TenderNumber" />
+          <ScalarProperty Name="ProjectPentaID" ColumnName="ProjectPentaID" />
+          <ScalarProperty Name="PMO_AspNetUserId" ColumnName="PMO_AspNetUserId" />
+          <ScalarProperty Name="ProjectEngineer_AspNetUserId" ColumnName="ProjectEngineer_AspNetUserId" />
+          <ScalarProperty Name="ProjectManager_AspNetUserId" ColumnName="ProjectManager_AspNetUserId" />
+          <ScalarProperty Name="EngineeringTeamApprovedBy_AspNetUserId" ColumnName="EngineeringTeamApprovedBy_AspNetUserId" />
+          <ScalarProperty Name="EngineeringTeamCheckedBy_AspNetUserId" ColumnName="EngineeringTeamCheckedBy_AspNetUserId" />
+          <ScalarProperty Name="EngineeringTeamDesignedBy_AspNetUserId" ColumnName="EngineeringTeamDesignedBy_AspNetUserId" />
+          <ScalarProperty Name="EngineeringTeamDrawnBy_AspNetUserId" ColumnName="EngineeringTeamDrawnBy_AspNetUserId" />
+          <ScalarProperty Name="MprCheckedBy_AspNetUserId" ColumnName="MprCheckedBy_AspNetUserId" />
+          <ScalarProperty Name="MprApprovedBy_AspNetUserId" ColumnName="MprApprovedBy_AspNetUserId" />
+          <ScalarProperty Name="MprCreatedBy_AspNetUserId" ColumnName="MprCreatedBy_AspNetUserId" />
+          <ScalarProperty Name="ProjectLockedBy_AspNetUserId" ColumnName="ProjectLockedBy_AspNetUserId" />
+          <ScalarProperty Name="ProjectLockedInMachine" ColumnName="ProjectLockedInMachine" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="MainconAddress" ColumnName="MainconAddress" />
+          <ScalarProperty Name="MainconCity" ColumnName="MainconCity" />
+          <ScalarProperty Name="MainconState" ColumnName="MainconState" />
+          <ScalarProperty Name="MainconPostalCode" ColumnName="MainconPostalCode" />
+          <ScalarProperty Name="MainconCountry" ColumnName="MainconCountry" />
+          <ScalarProperty Name="MainconPhone" ColumnName="MainconPhone" />
+          <ScalarProperty Name="MainconFax" ColumnName="MainconFax" />
+          <ScalarProperty Name="MainconCompanyId" ColumnName="MainconCompanyId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdProjectStakeHolders">
+      <EntityTypeMapping TypeName="MprDataModel.mdProjectStakeHolder">
+        <MappingFragment StoreEntitySet="mdProjectStakeHolders">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StakeholderType" ColumnName="StakeholderType" />
+          <ScalarProperty Name="ContactDetailId" ColumnName="ContactDetailId" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdRemoteEndDetails">
+      <EntityTypeMapping TypeName="MprDataModel.mdRemoteEndDetail">
+        <MappingFragment StoreEntitySet="mdRemoteEndDetails">
+          <ScalarProperty Name="SubstationName" ColumnName="SubstationName" />
+          <ScalarProperty Name="BayNos" ColumnName="BayNos" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="VoltageLevelID" ColumnName="VoltageLevelID" />
+          <ScalarProperty Name="RemoteEndDetailID" ColumnName="RemoteEndDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdRevisionHistories">
+      <EntityTypeMapping TypeName="MprDataModel.mdRevisionHistory">
+        <MappingFragment StoreEntitySet="mdRevisionHistories">
+          <ScalarProperty Name="RevisionNo" ColumnName="RevisionNo" />
+          <ScalarProperty Name="KeyedInByDate" ColumnName="KeyedInByDate" />
+          <ScalarProperty Name="CheckedByDate" ColumnName="CheckedByDate" />
+          <ScalarProperty Name="ApprovedByDate" ColumnName="ApprovedByDate" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="RevisionHistoryID" ColumnName="RevisionHistoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdSchematicProjectPaths">
+      <EntityTypeMapping TypeName="MprDataModel.mdSchematicProjectPath">
+        <MappingFragment StoreEntitySet="mdSchematicProjectPaths">
+          <ScalarProperty Name="SchematicProjectPath1" ColumnName="SchematicProjectPath1" />
+          <ScalarProperty Name="PathID" ColumnName="PathID" />
+          <ScalarProperty Name="SubstationID" ColumnName="SubstationID" />
+          <ScalarProperty Name="RefreshOnDateTime" ColumnName="RefreshOnDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdSchematicProjects">
+      <EntityTypeMapping TypeName="MprDataModel.mdSchematicProject">
+        <MappingFragment StoreEntitySet="mdSchematicProjects">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DrawingNo" ColumnName="DrawingNo" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdSingleLogoes">
+      <EntityTypeMapping TypeName="MprDataModel.mdSingleLogo">
+        <MappingFragment StoreEntitySet="mdSingleLogoes">
+          <ScalarProperty Name="LogoID" ColumnName="LogoID" />
+          <ScalarProperty Name="LogoDetailID" ColumnName="LogoDetailID" />
+          <ScalarProperty Name="SingleLogoID" ColumnName="SingleLogoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdSPanels">
+      <EntityTypeMapping TypeName="MprDataModel.mdSPanel">
+        <MappingFragment StoreEntitySet="mdSPanels">
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="SubstationID" ColumnName="SubstationID" />
+          <ScalarProperty Name="DummyCol" ColumnName="DummyCol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdSubstations">
+      <EntityTypeMapping TypeName="MprDataModel.mdSubstation">
+        <MappingFragment StoreEntitySet="mdSubstations">
+          <ScalarProperty Name="SubstationName" ColumnName="SubstationName" />
+          <ScalarProperty Name="SubstationID" ColumnName="SubstationID" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address3" ColumnName="Address3" />
+          <ScalarProperty Name="Address4" ColumnName="Address4" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectManager" ColumnName="ProjectManager" />
+          <ScalarProperty Name="ProjectEngineer" ColumnName="ProjectEngineer" />
+          <ScalarProperty Name="ProjectCoOrdinator" ColumnName="ProjectCoOrdinator" />
+          <ScalarProperty Name="SubstationType" ColumnName="SubstationType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdTerminalBlocks">
+      <EntityTypeMapping TypeName="MprDataModel.mdTerminalBlock">
+        <MappingFragment StoreEntitySet="mdTerminalBlocks">
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdTestBlocks">
+      <EntityTypeMapping TypeName="MprDataModel.mdTestBlock">
+        <MappingFragment StoreEntitySet="mdTestBlocks">
+          <ScalarProperty Name="Temp" ColumnName="Temp" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdTransducerChannelSpecs">
+      <EntityTypeMapping TypeName="MprDataModel.mdTransducerChannelSpec">
+        <MappingFragment StoreEntitySet="mdTransducerChannelSpecs">
+          <ScalarProperty Name="CtrPtr" ColumnName="CtrPtr" />
+          <ScalarProperty Name="Scale" ColumnName="Scale" />
+          <ScalarProperty Name="TransducerID" ColumnName="TransducerID" />
+          <ScalarProperty Name="ChannelNo" ColumnName="ChannelNo" />
+          <ScalarProperty Name="ChannelFunction" ColumnName="ChannelFunction" />
+          <ScalarProperty Name="mARange" ColumnName="mARange" />
+          <ScalarProperty Name="TransducerChannelSpecID" ColumnName="TransducerChannelSpecID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdTransducers">
+      <EntityTypeMapping TypeName="MprDataModel.mdTransducer">
+        <MappingFragment StoreEntitySet="mdTransducers">
+          <ScalarProperty Name="Channels" ColumnName="Channels" />
+          <ScalarProperty Name="ChannelSpec" ColumnName="ChannelSpec" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdVoltageLevels">
+      <EntityTypeMapping TypeName="MprDataModel.mdVoltageLevel">
+        <MappingFragment StoreEntitySet="mdVoltageLevels">
+          <ScalarProperty Name="VoltageLevelID" ColumnName="VoltageLevelID" />
+          <ScalarProperty Name="VoltageLevelValue_Id" ColumnName="VoltageLevelValue_Id" />
+          <ScalarProperty Name="SwitchGearType_Id" ColumnName="SwitchGearType_Id" />
+          <ScalarProperty Name="StationComType_id" ColumnName="StationComType_id" />
+          <ScalarProperty Name="BusConfiguration_Id" ColumnName="BusConfiguration_Id" />
+          <ScalarProperty Name="NominalCurrent" ColumnName="NominalCurrent" />
+          <ScalarProperty Name="Frequency" ColumnName="Frequency" />
+          <ScalarProperty Name="FaultLevel" ColumnName="FaultLevel" />
+          <ScalarProperty Name="FaultDuration" ColumnName="FaultDuration" />
+          <ScalarProperty Name="SubstationID" ColumnName="SubstationID" />
+          <ScalarProperty Name="DrawingCode" ColumnName="DrawingCode" />
+          <ScalarProperty Name="BusSegments" ColumnName="BusSegments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdVoltageTransformers">
+      <EntityTypeMapping TypeName="MprDataModel.mdVoltageTransformer">
+        <MappingFragment StoreEntitySet="mdVoltageTransformers">
+          <ScalarProperty Name="PrimaryEquipmentId" ColumnName="PrimaryEquipmentId" />
+          <ScalarProperty Name="VtType" ColumnName="VtType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdVPanels">
+      <EntityTypeMapping TypeName="MprDataModel.mdVPanel">
+        <MappingFragment StoreEntitySet="mdVPanels">
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="DummyCol" ColumnName="DummyCol" />
+          <ScalarProperty Name="VoltageLevelID" ColumnName="VoltageLevelID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdWindings">
+      <EntityTypeMapping TypeName="MprDataModel.mdWinding">
+        <MappingFragment StoreEntitySet="mdWindings">
+          <ScalarProperty Name="WindingName" ColumnName="WindingName" />
+          <ScalarProperty Name="Ratio" ColumnName="Ratio" />
+          <ScalarProperty Name="PrimaryWinding" ColumnName="PrimaryWinding" />
+          <ScalarProperty Name="SecondaryWinding" ColumnName="SecondaryWinding" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Burden" ColumnName="Burden" />
+          <ScalarProperty Name="WindingFunction" ColumnName="WindingFunction" />
+          <ScalarProperty Name="WidingID" ColumnName="WidingID" />
+          <ScalarProperty Name="PrimaryEquipmentId" ColumnName="PrimaryEquipmentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msBayRelayFunctions">
+      <EntityTypeMapping TypeName="MprDataModel.msBayRelayFunction">
+        <MappingFragment StoreEntitySet="msBayRelayFunctions">
+          <ScalarProperty Name="BayID" ColumnName="BayID" />
+          <ScalarProperty Name="Relay_Function" ColumnName="Relay Function" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msBayTypes">
+      <EntityTypeMapping TypeName="MprDataModel.msBayType">
+        <MappingFragment StoreEntitySet="msBayTypes">
+          <ScalarProperty Name="baytype" ColumnName="baytype" />
+          <ScalarProperty Name="abrr" ColumnName="abrr" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msBusConfigurations">
+      <EntityTypeMapping TypeName="MprDataModel.msBusConfiguration">
+        <MappingFragment StoreEntitySet="msBusConfigurations">
+          <ScalarProperty Name="BusConfiguration" ColumnName="BusConfiguration" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msCommunicationTypes">
+      <EntityTypeMapping TypeName="MprDataModel.msCommunicationType">
+        <MappingFragment StoreEntitySet="msCommunicationTypes">
+          <ScalarProperty Name="CommunicationType" ColumnName="CommunicationType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msCompanies">
+      <EntityTypeMapping TypeName="MprDataModel.msCompany">
+        <MappingFragment StoreEntitySet="msCompanies">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyLogo" ColumnName="CompanyLogo" />
+          <ScalarProperty Name="CompanyFullName" ColumnName="CompanyFullName" />
+          <ScalarProperty Name="RegistrationNo" ColumnName="RegistrationNo" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msComponentCategories">
+      <EntityTypeMapping TypeName="MprDataModel.msComponentCategory">
+        <MappingFragment StoreEntitySet="msComponentCategories">
+          <ScalarProperty Name="ComponentCategory" ColumnName="ComponentCategory" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msConsumables">
+      <EntityTypeMapping TypeName="MprDataModel.msConsumable">
+        <MappingFragment StoreEntitySet="msConsumables">
+          <ScalarProperty Name="ItemDescription" ColumnName="ItemDescription" />
+          <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+          <ScalarProperty Name="Catalog" ColumnName="Catalog" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="ItemsPerUnit" ColumnName="ItemsPerUnit" />
+          <ScalarProperty Name="Units" ColumnName="Units" />
+          <ScalarProperty Name="ITEMID" ColumnName="ITEMID" />
+          <ScalarProperty Name="ConsumableID" ColumnName="ConsumableID" />
+          <ScalarProperty Name="PENTA_ID" ColumnName="PENTA_ID" />
+          <ScalarProperty Name="Field1" ColumnName="Field1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msContactDetails">
+      <EntityTypeMapping TypeName="MprDataModel.msContactDetail">
+        <MappingFragment StoreEntitySet="msContactDetails">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FaxNo" ColumnName="FaxNo" />
+          <ScalarProperty Name="OfficePhone" ColumnName="OfficePhone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msControlFunctions">
+      <EntityTypeMapping TypeName="MprDataModel.msControlFunction">
+        <MappingFragment StoreEntitySet="msControlFunctions">
+          <ScalarProperty Name="FunName" ColumnName="FunName" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="tagcode" ColumnName="tagcode" />
+          <ScalarProperty Name="table" ColumnName="table" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msCtCoreFunctions">
+      <EntityTypeMapping TypeName="MprDataModel.msCtCoreFunction">
+        <MappingFragment StoreEntitySet="msCtCoreFunctions">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FunName" ColumnName="FunName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msCustomerDeliverables">
+      <EntityTypeMapping TypeName="MprDataModel.msCustomerDeliverable">
+        <MappingFragment StoreEntitySet="msCustomerDeliverables">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocumentType" ColumnName="DocumentType" />
+          <ScalarProperty Name="OrderByNo" ColumnName="OrderByNo" />
+          <ScalarProperty Name="IsProjectDocument" ColumnName="IsProjectDocument" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msDrawingFunctions">
+      <EntityTypeMapping TypeName="MprDataModel.msDrawingFunction">
+        <MappingFragment StoreEntitySet="msDrawingFunctions">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DrawingFuncton" ColumnName="DrawingFuncton" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="EXAMPLE_SHEETS" ColumnName="EXAMPLE SHEETS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msDrawings">
+      <EntityTypeMapping TypeName="MprDataModel.msDrawing">
+        <MappingFragment StoreEntitySet="msDrawings">
+          <ScalarProperty Name="SortingNo" ColumnName="SortingNo" />
+          <ScalarProperty Name="DrawingPath" ColumnName="DrawingPath" />
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msDrawingTypes">
+      <EntityTypeMapping TypeName="MprDataModel.msDrawingType">
+        <MappingFragment StoreEntitySet="msDrawingTypes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msInitials">
+      <EntityTypeMapping TypeName="MprDataModel.msInitial">
+        <MappingFragment StoreEntitySet="msInitials">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Initial" ColumnName="Initial" />
+          <ScalarProperty Name="esign" ColumnName="esign" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="ExtensionNumber" ColumnName="ExtensionNumber" />
+          <ScalarProperty Name="DisplayInDrawnBy" ColumnName="DisplayInDrawnBy" />
+          <ScalarProperty Name="DisplayInDesignedBy" ColumnName="DisplayInDesignedBy" />
+          <ScalarProperty Name="DisplayInCheckedBy" ColumnName="DisplayInCheckedBy" />
+          <ScalarProperty Name="DisplayInApprovedBy" ColumnName="DisplayInApprovedBy" />
+          <ScalarProperty Name="DisplayInManagedBy" ColumnName="DisplayInManagedBy" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msInsulationTypes">
+      <EntityTypeMapping TypeName="MprDataModel.msInsulationType">
+        <MappingFragment StoreEntitySet="msInsulationTypes">
+          <ScalarProperty Name="InsulationType" ColumnName="InsulationType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msLocationDesignations">
+      <EntityTypeMapping TypeName="MprDataModel.msLocationDesignation">
+        <MappingFragment StoreEntitySet="msLocationDesignations">
+          <ScalarProperty Name="paneltype" ColumnName="paneltype" />
+          <ScalarProperty Name="Abbreviation" ColumnName="Abbreviation" />
+          <ScalarProperty Name="Symbol" ColumnName="Symbol" />
+          <ScalarProperty Name="HavingSyncCircuit" ColumnName="HavingSyncCircuit" />
+          <ScalarProperty Name="HavingProtectionCircuit" ColumnName="HavingProtectionCircuit" />
+          <ScalarProperty Name="HavingAnnunciationDcLoopCircuit" ColumnName="HavingAnnunciationDcLoopCircuit" />
+          <ScalarProperty Name="HavingIndicationDcLoopCircuit" ColumnName="HavingIndicationDcLoopCircuit" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msLogoTypes">
+      <EntityTypeMapping TypeName="MprDataModel.msLogoType">
+        <MappingFragment StoreEntitySet="msLogoTypes">
+          <ScalarProperty Name="LogoType" ColumnName="LogoType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msMimics">
+      <EntityTypeMapping TypeName="MprDataModel.msMimic">
+        <MappingFragment StoreEntitySet="msMimics">
+          <ScalarProperty Name="BayID" ColumnName="BayID" />
+          <ScalarProperty Name="Mimics" ColumnName="Mimics" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msMPRSettings">
+      <EntityTypeMapping TypeName="MprDataModel.msMPRSetting">
+        <MappingFragment StoreEntitySet="msMPRSettings">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Variable" ColumnName="Variable" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msPanelArgTypes">
+      <EntityTypeMapping TypeName="MprDataModel.msPanelArgType">
+        <MappingFragment StoreEntitySet="msPanelArgTypes">
+          <ScalarProperty Name="paneltype" ColumnName="paneltype" />
+          <ScalarProperty Name="Abbreviation" ColumnName="Abbreviation" />
+          <ScalarProperty Name="Symbol" ColumnName="Symbol" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msPanels">
+      <EntityTypeMapping TypeName="MprDataModel.msPanel">
+        <MappingFragment StoreEntitySet="msPanels">
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="Panel" ColumnName="Panel" />
+          <ScalarProperty Name="NoOfSheet" ColumnName="NoOfSheet" />
+          <ScalarProperty Name="TimeRequiredToPrepareScheme" ColumnName="TimeRequiredToPrepareScheme" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msPanelTypes">
+      <EntityTypeMapping TypeName="MprDataModel.msPanelType">
+        <MappingFragment StoreEntitySet="msPanelTypes">
+          <ScalarProperty Name="paneltype" ColumnName="paneltype" />
+          <ScalarProperty Name="Abbreviation" ColumnName="Abbreviation" />
+          <ScalarProperty Name="Symbol" ColumnName="Symbol" />
+          <ScalarProperty Name="HavingSyncCircuit" ColumnName="HavingSyncCircuit" />
+          <ScalarProperty Name="HavingProtectionCircuit" ColumnName="HavingProtectionCircuit" />
+          <ScalarProperty Name="HavingAnnunciationDcLoopCircuit" ColumnName="HavingAnnunciationDcLoopCircuit" />
+          <ScalarProperty Name="HavingIndicationDcLoopCircuit" ColumnName="HavingIndicationDcLoopCircuit" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msPrimaryEquipmentDrawings">
+      <EntityTypeMapping TypeName="MprDataModel.msPrimaryEquipmentDrawing">
+        <MappingFragment StoreEntitySet="msPrimaryEquipmentDrawings">
+          <ScalarProperty Name="PrimaryDrawings" ColumnName="PrimaryDrawings" />
+          <ScalarProperty Name="PrimaryEquimentsID" ColumnName="PrimaryEquimentsID" />
+          <ScalarProperty Name="EquipmementIncluded" ColumnName="EquipmementIncluded" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msPrimaryEquipments">
+      <EntityTypeMapping TypeName="MprDataModel.msPrimaryEquipment">
+        <MappingFragment StoreEntitySet="msPrimaryEquipments">
+          <ScalarProperty Name="PrimaryEquipment" ColumnName="PrimaryEquipment" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PsiStandardID" ColumnName="PsiStandardID" />
+          <ScalarProperty Name="IsOptional" ColumnName="IsOptional" />
+          <ScalarProperty Name="BayID" ColumnName="BayID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msProtectionFunctions">
+      <EntityTypeMapping TypeName="MprDataModel.msProtectionFunction">
+        <MappingFragment StoreEntitySet="msProtectionFunctions">
+          <ScalarProperty Name="FunName" ColumnName="FunName" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="tagcode" ColumnName="tagcode" />
+          <ScalarProperty Name="table" ColumnName="table" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msPsiAtts">
+      <EntityTypeMapping TypeName="MprDataModel.msPsiAtt">
+        <MappingFragment StoreEntitySet="msPsiAtts">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PSI_ATTRIBUTE" ColumnName="PSI_ATTRIBUTE" />
+          <ScalarProperty Name="REMARKS" ColumnName="REMARKS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msPsiAttWireNoes">
+      <EntityTypeMapping TypeName="MprDataModel.msPsiAttWireNo">
+        <MappingFragment StoreEntitySet="msPsiAttWireNoes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PSI_ATTRIBUTE" ColumnName="PSI_ATTRIBUTE" />
+          <ScalarProperty Name="REMARKS" ColumnName="REMARKS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msRelayFunctions">
+      <EntityTypeMapping TypeName="MprDataModel.msRelayFunction">
+        <MappingFragment StoreEntitySet="msRelayFunctions">
+          <ScalarProperty Name="Function" ColumnName="Function" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msRequiredQuantities">
+      <EntityTypeMapping TypeName="MprDataModel.msRequiredQuantity">
+        <MappingFragment StoreEntitySet="msRequiredQuantities">
+          <ScalarProperty Name="ConsumableID" ColumnName="ConsumableID" />
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="TransmissionQuantity" ColumnName="TransmissionQuantity" />
+          <ScalarProperty Name="Field1" ColumnName="Field1" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msScheduleHItems">
+      <EntityTypeMapping TypeName="MprDataModel.msScheduleHItem">
+        <MappingFragment StoreEntitySet="msScheduleHItems">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ScheduleItem" ColumnName="ScheduleItem" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msStakeHolderContacts">
+      <EntityTypeMapping TypeName="MprDataModel.msStakeHolderContact">
+        <MappingFragment StoreEntitySet="msStakeHolderContacts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="OfficePhone" ColumnName="OfficePhone" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="MobilePhone" ColumnName="MobilePhone" />
+          <ScalarProperty Name="StakeHolderId" ColumnName="StakeHolderId" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msSubstationObjectTypes">
+      <EntityTypeMapping TypeName="MprDataModel.msSubstationObjectType">
+        <MappingFragment StoreEntitySet="msSubstationObjectTypes">
+          <ScalarProperty Name="ObjectType" ColumnName="ObjectType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msSubstationStructures">
+      <EntityTypeMapping TypeName="MprDataModel.msSubstationStructure">
+        <MappingFragment StoreEntitySet="msSubstationStructures">
+          <ScalarProperty Name="Objects" ColumnName="Objects" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="ObjectType" ColumnName="ObjectType" />
+          <ScalarProperty Name="FullPath" ColumnName="FullPath" />
+          <ScalarProperty Name="Field1" ColumnName="Field1" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msSubstationTypes">
+      <EntityTypeMapping TypeName="MprDataModel.msSubstationType">
+        <MappingFragment StoreEntitySet="msSubstationTypes">
+          <ScalarProperty Name="SubstationType" ColumnName="SubstationType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msTNBApprovedEquipments">
+      <EntityTypeMapping TypeName="MprDataModel.msTNBApprovedEquipment">
+        <MappingFragment StoreEntitySet="msTNBApprovedEquipments">
+          <ScalarProperty Name="Function" ColumnName="Function" />
+          <ScalarProperty Name="Make" ColumnName="Make" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="RecommendedOrderingNo" ColumnName="RecommendedOrderingNo" />
+          <ScalarProperty Name="manufacturer" ColumnName="manufacturer" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="SGP_Certificate_No_TTC_Action_Sheet_No" ColumnName="SGP_Certificate_No_TTC_Action_Sheet_No" />
+          <ScalarProperty Name="OtherLimitations" ColumnName="OtherLimitations" />
+          <ScalarProperty Name="VoltageLimit_kv" ColumnName="VoltageLimit_kv" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Vl_500kV" ColumnName="Vl_500kV" />
+          <ScalarProperty Name="Vl_275kV" ColumnName="Vl_275kV" />
+          <ScalarProperty Name="Vl_132kV" ColumnName="Vl_132kV" />
+          <ScalarProperty Name="Vl_33kV" ColumnName="Vl_33kV" />
+          <ScalarProperty Name="Vl_22kV" ColumnName="Vl_22kV" />
+          <ScalarProperty Name="Vl_11kV" ColumnName="Vl_11kV" />
+          <ScalarProperty Name="ReleaseNo" ColumnName="ReleaseNo" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msVoltageLevels">
+      <EntityTypeMapping TypeName="MprDataModel.msVoltageLevel">
+        <MappingFragment StoreEntitySet="msVoltageLevels">
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Units" ColumnName="Units" />
+          <ScalarProperty Name="CurrentType" ColumnName="CurrentType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="msVtWindingFuncitons">
+      <EntityTypeMapping TypeName="MprDataModel.msVtWindingFunciton">
+        <MappingFragment StoreEntitySet="msVtWindingFuncitons">
+          <ScalarProperty Name="FunName" ColumnName="FunName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="MprDataModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="MprDataModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetUsers">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="mdProjectStakeholderContacts" TypeName="MprDataModel.mdProjectStakeholderContacts" StoreEntitySet="mdProjectStakeholderContacts">
+      <EndProperty Name="mdProjectStakeHolders">
+        <ScalarProperty Name="Id" ColumnName="ProjectStakeHolderID" />
+      </EndProperty>
+      <EndProperty Name="msStakeHolderContacts">
+        <ScalarProperty Name="Id" ColumnName="ContactId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="MprDataModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="MprDataModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="MprDataModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_EmailNotificationDateOfReceived" FunctionName="MprDataModel.Store.sp_EmailNotificationDateOfReceived">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_EmailNotificationDateOfReceived_Result">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectID1" ColumnName="ProjectID1" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="Voltage" ColumnName="Voltage" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="ExpectedDate" ColumnName="ExpectedDate" />
+          <ScalarProperty Name="DateOfReceived" ColumnName="DateOfReceived" />
+          <ScalarProperty Name="NotApplicable" ColumnName="NotApplicable" />
+          <ScalarProperty Name="DocumentType" ColumnName="DocumentType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainconCompanyID" ColumnName="MainconCompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyFullName" ColumnName="CompanyFullName" />
+          <ScalarProperty Name="RegistrationNo" ColumnName="RegistrationNo" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="PmoEmail" ColumnName="PmoEmail" />
+          <ScalarProperty Name="PmoFullName" ColumnName="PmoFullName" />
+          <ScalarProperty Name="PeEmail" ColumnName="PeEmail" />
+          <ScalarProperty Name="PefullName" ColumnName="PefullName" />
+          <ScalarProperty Name="PmEmail" ColumnName="PmEmail" />
+          <ScalarProperty Name="PmFullName" ColumnName="PmFullName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_EmailNotificationDesignStart" FunctionName="MprDataModel.Store.sp_EmailNotificationDesignStart">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_EmailNotificationDesignStart_Result">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectID1" ColumnName="ProjectID1" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="Voltage" ColumnName="Voltage" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="ExpectedDate" ColumnName="ExpectedDate" />
+          <ScalarProperty Name="DateOfReceived" ColumnName="DateOfReceived" />
+          <ScalarProperty Name="NotApplicable" ColumnName="NotApplicable" />
+          <ScalarProperty Name="DocumentType" ColumnName="DocumentType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainconCompanyId" ColumnName="MainconCompanyId" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyFullName" ColumnName="CompanyFullName" />
+          <ScalarProperty Name="RegistrationNo" ColumnName="RegistrationNo" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="DesignStart" ColumnName="DesignStart" />
+          <ScalarProperty Name="PmoEmail" ColumnName="PmoEmail" />
+          <ScalarProperty Name="PmoFullName" ColumnName="PmoFullName" />
+          <ScalarProperty Name="PeEmail" ColumnName="PeEmail" />
+          <ScalarProperty Name="PefullName" ColumnName="PefullName" />
+          <ScalarProperty Name="PmEmail" ColumnName="PmEmail" />
+          <ScalarProperty Name="PmFullName" ColumnName="PmFullName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_EmailNotificationFirstTime" FunctionName="MprDataModel.Store.sp_EmailNotificationFirstTime">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_EmailNotificationFirstTime_Result">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectID1" ColumnName="ProjectID1" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="Voltage" ColumnName="Voltage" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="ExpectedDate" ColumnName="ExpectedDate" />
+          <ScalarProperty Name="DateOfReceived" ColumnName="DateOfReceived" />
+          <ScalarProperty Name="NotApplicable" ColumnName="NotApplicable" />
+          <ScalarProperty Name="DocumentType" ColumnName="DocumentType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainconCompanyID" ColumnName="MainconCompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyFullName" ColumnName="CompanyFullName" />
+          <ScalarProperty Name="RegistrationNo" ColumnName="RegistrationNo" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="PmoEmail" ColumnName="PmoEmail" />
+          <ScalarProperty Name="PmoFullName" ColumnName="PmoFullName" />
+          <ScalarProperty Name="PeEmail" ColumnName="PeEmail" />
+          <ScalarProperty Name="PefullName" ColumnName="PefullName" />
+          <ScalarProperty Name="PmEmail" ColumnName="PmEmail" />
+          <ScalarProperty Name="PmFullName" ColumnName="PmFullName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="MprDataModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="MprDataModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_msBayRelayFunctions" FunctionName="MprDataModel.Store.sp_msBayRelayFunctions">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_msBayRelayFunctions_Result">
+          <ScalarProperty Name="BayID" ColumnName="BayID" />
+          <ScalarProperty Name="Relay_Function" ColumnName="Relay Function" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_msBayTypes" FunctionName="MprDataModel.Store.sp_msBayTypes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_msBayTypes_Result">
+          <ScalarProperty Name="baytype" ColumnName="baytype" />
+          <ScalarProperty Name="abrr" ColumnName="abrr" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_msConsumables" FunctionName="MprDataModel.Store.sp_msConsumables">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_msConsumables_Result">
+          <ScalarProperty Name="ItemDescription" ColumnName="ItemDescription" />
+          <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+          <ScalarProperty Name="Catalog" ColumnName="Catalog" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="ItemsPerUnit" ColumnName="ItemsPerUnit" />
+          <ScalarProperty Name="Units" ColumnName="Units" />
+          <ScalarProperty Name="ITEMID" ColumnName="ITEMID" />
+          <ScalarProperty Name="ConsumableID" ColumnName="ConsumableID" />
+          <ScalarProperty Name="PENTA_ID" ColumnName="PENTA_ID" />
+          <ScalarProperty Name="Field1" ColumnName="Field1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_msDrawings" FunctionName="MprDataModel.Store.sp_msDrawings">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_msDrawings_Result">
+          <ScalarProperty Name="SortingNo" ColumnName="SortingNo" />
+          <ScalarProperty Name="DrawingPath" ColumnName="DrawingPath" />
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_msMimics" FunctionName="MprDataModel.Store.sp_msMimics">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_msMimics_Result">
+          <ScalarProperty Name="BayID" ColumnName="BayID" />
+          <ScalarProperty Name="Mimics" ColumnName="Mimics" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_msPanelTypes" FunctionName="MprDataModel.Store.sp_msPanelTypes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_msPanelTypes_Result">
+          <ScalarProperty Name="paneltype" ColumnName="paneltype" />
+          <ScalarProperty Name="Abbreviation" ColumnName="Abbreviation" />
+          <ScalarProperty Name="Symbol" ColumnName="Symbol" />
+          <ScalarProperty Name="HavingSyncCircuit" ColumnName="HavingSyncCircuit" />
+          <ScalarProperty Name="HavingProtectionCircuit" ColumnName="HavingProtectionCircuit" />
+          <ScalarProperty Name="HavingAnnunciationDcLoopCircuit" ColumnName="HavingAnnunciationDcLoopCircuit" />
+          <ScalarProperty Name="HavingIndicationDcLoopCircuit" ColumnName="HavingIndicationDcLoopCircuit" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_msPrimaryEquipmentDrawings" FunctionName="MprDataModel.Store.sp_msPrimaryEquipmentDrawings">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_msPrimaryEquipmentDrawings_Result">
+          <ScalarProperty Name="PrimaryDrawings" ColumnName="PrimaryDrawings" />
+          <ScalarProperty Name="PrimaryEquimentsID" ColumnName="PrimaryEquimentsID" />
+          <ScalarProperty Name="EquipmementIncluded" ColumnName="EquipmementIncluded" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_msPrimaryEquipments" FunctionName="MprDataModel.Store.sp_msPrimaryEquipments">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_msPrimaryEquipments_Result">
+          <ScalarProperty Name="PrimaryEquipment" ColumnName="PrimaryEquipment" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PsiStandardID" ColumnName="PsiStandardID" />
+          <ScalarProperty Name="IsOptional" ColumnName="IsOptional" />
+          <ScalarProperty Name="BayID" ColumnName="BayID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_msRelayFunctions" FunctionName="MprDataModel.Store.sp_msRelayFunctions">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_msRelayFunctions_Result">
+          <ScalarProperty Name="Function" ColumnName="Function" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_msRequiredQuantities" FunctionName="MprDataModel.Store.sp_msRequiredQuantities">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_msRequiredQuantities_Result">
+          <ScalarProperty Name="ConsumableID" ColumnName="ConsumableID" />
+          <ScalarProperty Name="PanelID" ColumnName="PanelID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="TransmissionQuantity" ColumnName="TransmissionQuantity" />
+          <ScalarProperty Name="Field1" ColumnName="Field1" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="MprDataModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_Settings" FunctionName="MprDataModel.Store.sp_Settings">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_Settings_Result">
+          <ScalarProperty Name="Objects" ColumnName="Objects" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="ObjectType" ColumnName="ObjectType" />
+          <ScalarProperty Name="FullPath" ColumnName="FullPath" />
+          <ScalarProperty Name="Field1" ColumnName="Field1" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_SubstationStructures" FunctionName="MprDataModel.Store.sp_SubstationStructures">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MprDataModel.sp_SubstationStructures_Result">
+          <ScalarProperty Name="Objects" ColumnName="Objects" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="ObjectType" ColumnName="ObjectType" />
+          <ScalarProperty Name="FullPath" ColumnName="FullPath" />
+          <ScalarProperty Name="Field1" ColumnName="Field1" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="MprDataModel.Store.sp_upgraddiagrams" />
+    <EntitySetMapping Name="msGenSchemeComponents">
+      <EntityTypeMapping TypeName="MprDataModel.msGenSchemeComponent">
+        <MappingFragment StoreEntitySet="msGenSchemeComponents">
+          <ScalarProperty Name="Family" ColumnName="Family" />
+          <ScalarProperty Name="Loc" ColumnName="Loc" />
+          <ScalarProperty Name="GenTagDesc" ColumnName="GenTagDesc" />
+          <ScalarProperty Name="GenTag" ColumnName="GenTag" />
+          <ScalarProperty Name="GenLocDesc" ColumnName="GenLocDesc" />
+          <ScalarProperty Name="GenLoc" ColumnName="GenLoc" />
+          <ScalarProperty Name="CurrentCatalog" ColumnName="CurrentCatalog" />
+          <ScalarProperty Name="CurrentMake" ColumnName="CurrentMake" />
+          <ScalarProperty Name="GenTerms" ColumnName="GenTerms" />
+          <ScalarProperty Name="BlockNames" ColumnName="BlockNames" />
+          <ScalarProperty Name="Tag" ColumnName="Tag" />
+          <ScalarProperty Name="SchemeID" ColumnName="SchemeID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4ff527458341496d97f59b547fab6b83" Name="Diagram1" ZoomLevel="98">
+        <EntityTypeShape EntityType="MprDataModel.AspNetRoleClaim" Width="1.5" PointX="5.25" PointY="135.125" />
+        <EntityTypeShape EntityType="MprDataModel.AspNetRole" Width="1.5" PointX="3" PointY="135" />
+        <EntityTypeShape EntityType="MprDataModel.AspNetUserClaim" Width="1.5" PointX="3" PointY="132.25" />
+        <EntityTypeShape EntityType="MprDataModel.AspNetUserLogin" Width="1.5" PointX="3" PointY="129.5" />
+        <EntityTypeShape EntityType="MprDataModel.AspNetUser" Width="1.5" PointX="0.75" PointY="61.625" />
+        <EntityTypeShape EntityType="MprDataModel.mdAllComponentsFromScheme" Width="1.5" PointX="12.75" PointY="81.75" />
+        <EntityTypeShape EntityType="MprDataModel.mdAllTerminalBlocksFromScheme" Width="1.5" PointX="12.75" PointY="75" />
+        <EntityTypeShape EntityType="MprDataModel.mdAnnunciator" Width="1.5" PointX="12.75" PointY="36" />
+        <EntityTypeShape EntityType="MprDataModel.mdArrangementAcLoopRow" Width="1.5" PointX="10.5" PointY="98.875" />
+        <EntityTypeShape EntityType="MprDataModel.mdArrangementAnnunciationRow" Width="1.5" PointX="10.5" PointY="102.375" />
+        <EntityTypeShape EntityType="MprDataModel.mdArrangementPanelRow" Width="1.5" PointX="10.5" PointY="92.625" />
+        <EntityTypeShape EntityType="MprDataModel.mdArrangementsIndicationRow" Width="1.5" PointX="10.5" PointY="72.25" />
+        <EntityTypeShape EntityType="MprDataModel.mdArrangementSynchCircuitRow" Width="1.5" PointX="10.5" PointY="95.375" />
+        <EntityTypeShape EntityType="MprDataModel.mdAuxiliaryComponent" Width="1.5" PointX="12.75" PointY="46.5" />
+        <EntityTypeShape EntityType="MprDataModel.mdAuxiliaryRelay" Width="1.5" PointX="12.75" PointY="40.875" />
+        <EntityTypeShape EntityType="MprDataModel.mdBay" Width="1.5" PointX="15.75" PointY="80.375" />
+        <EntityTypeShape EntityType="MprDataModel.mdBPanel" Width="1.5" PointX="18" PointY="87.5" />
+        <EntityTypeShape EntityType="MprDataModel.mdCircuitBreaker" Width="1.5" PointX="20.25" PointY="73.875" />
+        <EntityTypeShape EntityType="MprDataModel.mdConsumableItem" Width="1.5" PointX="12.75" PointY="54.125" />
+        <EntityTypeShape EntityType="MprDataModel.mdContactDetail" Width="1.5" PointX="3" PointY="10" />
+        <EntityTypeShape EntityType="MprDataModel.mdContractPrimaryDeliverable" Width="1.5" PointX="8.25" PointY="66" />
+        <EntityTypeShape EntityType="MprDataModel.mdContractSecondaryDeliverable" Width="1.5" PointX="8.25" PointY="43.625" />
+        <EntityTypeShape EntityType="MprDataModel.mdCore" Width="1.5" PointX="22.5" PointY="68.25" />
+        <EntityTypeShape EntityType="MprDataModel.mdCurrentTransformer" Width="1.5" PointX="20.25" PointY="69.875" />
+        <EntityTypeShape EntityType="MprDataModel.mdCustomerDeliverableDate" Width="1.5" PointX="10.5" PointY="56.25" />
+        <EntityTypeShape EntityType="MprDataModel.mdCustomerDeliverableVoltage" Width="1.5" PointX="8.25" PointY="56.875" />
+        <EntityTypeShape EntityType="MprDataModel.mdDoubleLogo" Width="1.5" PointX="3" PointY="4.5" />
+        <EntityTypeShape EntityType="MprDataModel.mdEarthSwitch" Width="1.5" PointX="20.25" PointY="76.625" />
+        <EntityTypeShape EntityType="MprDataModel.mdExternalStakeHolder" Width="1.5" PointX="11.25" PointY="60.375" />
+        <EntityTypeShape EntityType="MprDataModel.mdFileTime" Width="1.5" PointX="12.75" PointY="79.125" />
+        <EntityTypeShape EntityType="MprDataModel.mdInternalStakeHolder" Width="1.5" PointX="3" PointY="64.375" />
+        <EntityTypeShape EntityType="MprDataModel.mdIsolator" Width="1.5" PointX="20.25" PointY="84.375" />
+        <EntityTypeShape EntityType="MprDataModel.mdLogoDetail" Width="1.5" PointX="0.75" PointY="4.25" />
+        <EntityTypeShape EntityType="MprDataModel.mdMainRelay" Width="1.5" PointX="12.75" PointY="38.5" />
+        <EntityTypeShape EntityType="MprDataModel.mdMasterProjectSchedule" Width="1.5" PointX="8.25" PointY="99.5" />
+        <EntityTypeShape EntityType="MprDataModel.mdMeter" Width="1.5" PointX="12.75" PointY="51.25" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanelComponent" Width="1.5" PointX="10.5" PointY="41.75" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanelFunction" Width="1.5" PointX="18" PointY="98.125" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanelFunctionsSub" Width="1.5" PointX="8" PointY="1.125" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanel" Width="1.5" PointX="15.75" PointY="85.875" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanelSize" Width="1.5" PointX="13.5" PointY="89.875" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanelSizesSub" Width="1.5" PointX="8" PointY="4.625" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanelsSub" Width="1.5" PointX="5.75" PointY="1.875" />
+        <EntityTypeShape EntityType="MprDataModel.mdPowerTransformer" Width="1.5" PointX="20.25" PointY="79.375" />
+        <EntityTypeShape EntityType="MprDataModel.mdPRData" Width="1.5" PointX="5.75" PointY="8.75" />
+        <EntityTypeShape EntityType="MprDataModel.mdPrimaryEquipment" Width="1.5" PointX="18" PointY="73.25" />
+        <EntityTypeShape EntityType="MprDataModel.mdProjectLogo" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MprDataModel.mdProject" Width="1.5" PointX="6" PointY="59.375" />
+        <EntityTypeShape EntityType="MprDataModel.mdProjectStakeHolder" Width="1.5" PointX="11.25" PointY="64.375" />
+        <EntityTypeShape EntityType="MprDataModel.mdRemoteEndDetail" Width="1.5" PointX="12.75" PointY="106.75" />
+        <EntityTypeShape EntityType="MprDataModel.mdRevisionHistory" Width="1.5" PointX="8.25" PointY="59.625" />
+        <EntityTypeShape EntityType="MprDataModel.mdSchematicProjectPath" Width="1.5" PointX="10.5" PointY="79.375" />
+        <EntityTypeShape EntityType="MprDataModel.mdSchematicProject" Width="1.5" PointX="7.75" PointY="8.75" />
+        <EntityTypeShape EntityType="MprDataModel.mdSingleLogo" Width="1.5" PointX="3" PointY="1.625" />
+        <EntityTypeShape EntityType="MprDataModel.mdSPanel" Width="1.5" PointX="21" PointY="88.75" />
+        <EntityTypeShape EntityType="MprDataModel.mdSubstation" Width="1.5" PointX="8.25" PointY="82.875" />
+        <EntityTypeShape EntityType="MprDataModel.mdTerminalBlock" Width="1.5" PointX="12.75" PointY="48.875" />
+        <EntityTypeShape EntityType="MprDataModel.mdTestBlock" Width="1.5" PointX="12.75" PointY="33.625" />
+        <EntityTypeShape EntityType="MprDataModel.mdTransducerChannelSpec" Width="1.5" PointX="15" PointY="43.25" />
+        <EntityTypeShape EntityType="MprDataModel.mdTransducer" Width="1.5" PointX="12.75" PointY="43.375" />
+        <EntityTypeShape EntityType="MprDataModel.mdVoltageLevel" Width="1.5" PointX="10.5" PointY="83.125" />
+        <EntityTypeShape EntityType="MprDataModel.mdVoltageTransformer" Width="1.5" PointX="20.25" PointY="65.125" />
+        <EntityTypeShape EntityType="MprDataModel.mdVPanel" Width="1.5" PointX="18" PointY="90.875" />
+        <EntityTypeShape EntityType="MprDataModel.mdWinding" Width="1.5" PointX="22.5" PointY="64.625" />
+        <EntityTypeShape EntityType="MprDataModel.msBayRelayFunction" Width="1.5" PointX="6" PointY="72.875" />
+        <EntityTypeShape EntityType="MprDataModel.msBayType" Width="1.5" PointX="9.75" PointY="8.75" />
+        <EntityTypeShape EntityType="MprDataModel.msBusConfiguration" Width="1.5" PointX="2.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MprDataModel.msCommunicationType" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MprDataModel.msCompany" Width="1.5" PointX="3.75" PointY="68.5" />
+        <EntityTypeShape EntityType="MprDataModel.msComponentCategory" Width="1.5" PointX="10.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MprDataModel.msConsumable" Width="1.5" PointX="10.75" PointY="28.625" />
+        <EntityTypeShape EntityType="MprDataModel.msContactDetail" Width="1.5" PointX="11.75" PointY="6.75" />
+        <EntityTypeShape EntityType="MprDataModel.msControlFunction" Width="1.5" PointX="7.75" PointY="11.75" />
+        <EntityTypeShape EntityType="MprDataModel.msCtCoreFunction" Width="1.5" PointX="9.75" PointY="11.75" />
+        <EntityTypeShape EntityType="MprDataModel.msCustomerDeliverable" Width="1.5" PointX="8.25" PointY="53.875" />
+        <EntityTypeShape EntityType="MprDataModel.msDrawingFunction" Width="1.5" PointX="11.75" PointY="10.75" />
+        <EntityTypeShape EntityType="MprDataModel.msDrawing" Width="1.5" PointX="6" PointY="56.125" />
+        <EntityTypeShape EntityType="MprDataModel.msDrawingType" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MprDataModel.msGenSchemeComponent" Width="1.5" PointX="6" PointY="75.375" />
+        <EntityTypeShape EntityType="MprDataModel.msInitial" Width="1.5" PointX="0.75" PointY="13.75" />
+        <EntityTypeShape EntityType="MprDataModel.msInsulationType" Width="1.5" PointX="12.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MprDataModel.msLocationDesignation" Width="1.5" PointX="2.75" PointY="13.75" />
+        <EntityTypeShape EntityType="MprDataModel.msLogoType" Width="1.5" PointX="13.75" PointY="6.75" />
+        <EntityTypeShape EntityType="MprDataModel.msMimic" Width="1.5" PointX="6" PointY="53.25" />
+        <EntityTypeShape EntityType="MprDataModel.msMPRSetting" Width="1.5" PointX="13.75" PointY="9.75" />
+        <EntityTypeShape EntityType="MprDataModel.msPanelArgType" Width="1.5" PointX="11.75" PointY="13.75" />
+        <EntityTypeShape EntityType="MprDataModel.msPanel" Width="1.5" PointX="13.75" PointY="12.75" />
+        <EntityTypeShape EntityType="MprDataModel.msPanelType" Width="1.5" PointX="14.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MprDataModel.msPrimaryEquipmentDrawing" Width="1.5" PointX="8.25" PointY="50" />
+        <EntityTypeShape EntityType="MprDataModel.msPrimaryEquipment" Width="1.5" PointX="6" PointY="49.75" />
+        <EntityTypeShape EntityType="MprDataModel.msProtectionFunction" Width="1.5" PointX="4.75" PointY="14.75" />
+        <EntityTypeShape EntityType="MprDataModel.msPsiAtt" Width="1.5" PointX="6.75" PointY="14.75" />
+        <EntityTypeShape EntityType="MprDataModel.msPsiAttWireNo" Width="1.5" PointX="8.75" PointY="14.75" />
+        <EntityTypeShape EntityType="MprDataModel.msRelayFunction" Width="1.5" PointX="15.75" PointY="4.75" />
+        <EntityTypeShape EntityType="MprDataModel.msRequiredQuantity" Width="1.5" PointX="13" PointY="57" />
+        <EntityTypeShape EntityType="MprDataModel.msScheduleHItem" Width="1.5" PointX="15.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MprDataModel.msStakeHolderContact" Width="1.5" PointX="13.5" PointY="63.875" />
+        <EntityTypeShape EntityType="MprDataModel.msSubstationObjectType" Width="1.5" PointX="15.75" PointY="10.75" />
+        <EntityTypeShape EntityType="MprDataModel.msSubstationStructure" Width="1.5" PointX="3.75" PointY="57.875" />
+        <EntityTypeShape EntityType="MprDataModel.msSubstationType" Width="1.5" PointX="15.75" PointY="13.75" />
+        <EntityTypeShape EntityType="MprDataModel.msTNBApprovedEquipment" Width="1.5" PointX="10.75" PointY="16.75" />
+        <EntityTypeShape EntityType="MprDataModel.msVoltageLevel" Width="1.5" PointX="16.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MprDataModel.msVtWindingFunciton" Width="1.5" PointX="12.75" PointY="16.75" />
+        <AssociationConnector Association="MprDataModel.FK_IdentityRoleClaim_string__IdentityRole_RoleId" />
+        <AssociationConnector Association="MprDataModel.FK_IdentityUserClaim_string__ApplicationUser_UserId" />
+        <AssociationConnector Association="MprDataModel.FK_IdentityUserLogin_string__ApplicationUser_UserId" />
+        <AssociationConnector Association="MprDataModel.FK_mdInternalStakeHolders_AspNetUsers" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_EngineeringManager" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_EngineeringTeamApprovedBy" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_EngineeringTeamCheckedBy" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_EngineeringTeamDesignedBy" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_EngineeringTeamDrawnBy" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_MprApprovedBy" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_MprCheckedBy" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_MprCreatedBy" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_PMO_AspNetUserId" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_ProjectEngineer" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_ProjectLockedBy" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_ProjectManager" />
+        <AssociationConnector Association="MprDataModel.FK_AllComponentsFromScheme_SchematicProjectPaths" />
+        <AssociationConnector Association="MprDataModel.FK_AllTerminalBlocksFromSchemem_SchematicProjectPaths" />
+        <AssociationConnector Association="MprDataModel.FK_mdAnnunciators_mdPanelComponents" />
+        <AssociationConnector Association="MprDataModel.FK_mdArrangementAcLoopRows_mdSubstations" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdArrangementAcLoopRows" />
+        <AssociationConnector Association="MprDataModel.FK_mdArrangementAnnunciationRows_mdSubstations" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdArrangementAnnunciationRows" />
+        <AssociationConnector Association="MprDataModel.FK_mdArrangementPanelRows_mdSubstations" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdArrangementPanelRows" />
+        <AssociationConnector Association="MprDataModel.FK_mdArrangementsIndicationRows_mdSubstations" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdArrangementsIndicationRows" />
+        <AssociationConnector Association="MprDataModel.FK_mdArrangementSynchCircuitRows_mdSubstations" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdArrangementSynchCircuitRows" />
+        <AssociationConnector Association="MprDataModel.FK_mdAuxiliaryComponents_mdPanelComponents" />
+        <AssociationConnector Association="MprDataModel.FK_mdAuxiliaryRelays_mdPanelComponents" />
+        <AssociationConnector Association="MprDataModel.FK_Bays_VoltageLevels" />
+        <AssociationConnector Association="MprDataModel.FK_mdBayLevelPanels_mdBays" />
+        <AssociationConnector Association="MprDataModel.FK_mdBays_msSubstationStructures" />
+        <AssociationConnector Association="MprDataModel.FK_mdPrimaryEquipments_mdBays" />
+        <AssociationConnector Association="MprDataModel.FK_mdBPanels_mdPanels" />
+        <AssociationConnector Association="MprDataModel.FK_mdCircuitBreakers_mdPrimaryEquipments" />
+        <AssociationConnector Association="MprDataModel.FK_mdConsumableItems_mdPanelComponents" />
+        <AssociationConnector Association="MprDataModel.FK_ContactDetails_LogoDetail" />
+        <AssociationConnector Association="MprDataModel.FK_mdContractPrimaryDeliverables_mdProjects" />
+        <AssociationConnector Association="MprDataModel.FK_mdContractSecondaryDeliverables_mdProjects" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanelComponents_mdContractSecondaryDeliverables" />
+        <AssociationConnector Association="MprDataModel.FK_mdCores_mdCurrentTransformers1" />
+        <AssociationConnector Association="MprDataModel.FK_mdCurrentTransformers_mdPrimaryEquipments" />
+        <AssociationConnector Association="MprDataModel.FK_mdCustomerDeliverableDates_mdCustomerDeliverableVoltages" />
+        <AssociationConnector Association="MprDataModel.FK_mdCustomerDeliverableDates_msCustomerDeliverables" />
+        <AssociationConnector Association="MprDataModel.FK_mdCustomerDeliverableVoltages_mdProjects" />
+        <AssociationConnector Association="MprDataModel.FK_DoubleLogos_LogoDetail" />
+        <AssociationConnector Association="MprDataModel.FK_DoubleLogos_LogoDetail1" />
+        <AssociationConnector Association="MprDataModel.FK_DoubleLogos_ProjectLogos" />
+        <AssociationConnector Association="MprDataModel.FK_mdEarthSwitches_mdPrimaryEquipments" />
+        <AssociationConnector Association="MprDataModel.FK_mdExternalStakeHolders_mdProjects" />
+        <AssociationConnector Association="MprDataModel.FK_mdExternalStakeHolders_msStakeHolderContacts" />
+        <AssociationConnector Association="MprDataModel.FK_FileTime_SchematicProjectPaths" />
+        <AssociationConnector Association="MprDataModel.FK_mdInternalStakeHolders_mdProjects" />
+        <AssociationConnector Association="MprDataModel.FK_mdIsolators_mdPrimaryEquipments" />
+        <AssociationConnector Association="MprDataModel.FK_SingleLogos_LogoDetail" />
+        <AssociationConnector Association="MprDataModel.FK_mdMainRelays_mdPanelComponents" />
+        <AssociationConnector Association="MprDataModel.FK_mdMasterProjectSchedules_mdProjects" />
+        <AssociationConnector Association="MprDataModel.FK_mdMeters_mdPanelComponents" />
+        <AssociationConnector Association="MprDataModel.FK_mdTerminalBlocks_mdPanelComponents" />
+        <AssociationConnector Association="MprDataModel.FK_mdTestBlocks_mdPanelComponents" />
+        <AssociationConnector Association="MprDataModel.FK_mdTransducers_mdPanelComponents" />
+        <AssociationConnector Association="MprDataModel.FK_PanelFunctions_Panels" />
+        <AssociationConnector Association="MprDataModel.FK_PanelFunctionsSub_PanelsSub" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdPanels" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdPanelSizes" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_msSubstationStructures" />
+        <AssociationConnector Association="MprDataModel.FK_mdSPanels_mdPanels" />
+        <AssociationConnector Association="MprDataModel.FK_mdVPanels_mdPanels" />
+        <AssociationConnector Association="MprDataModel.FK_PanelSizesSub_PanelsSub" />
+        <AssociationConnector Association="MprDataModel.FK_mdPowerTransformers_mdPrimaryEquipments" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageTransformers_mdPrimaryEquipments" />
+        <AssociationConnector Association="MprDataModel.FK_SingleLogos_ProjectLogos" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_msCompanies" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_msSubstationStructures" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjectStakeHolders_mdProjects" />
+        <AssociationConnector Association="MprDataModel.FK_mdRevisionHistories_mdProjects" />
+        <AssociationConnector Association="MprDataModel.FK_SubstationData_Projects" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjectStakeHolders_msCompanies" />
+        <AssociationConnector Association="MprDataModel.FK_RemoteEndDetails_VoltageLevels" />
+        <AssociationConnector Association="MprDataModel.FK_SchematicProjectPaths_SubstationData" />
+        <AssociationConnector Association="MprDataModel.FK_mdSubstationLevelPanels_mdSubstations" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageLevels_mdSubstations" />
+        <AssociationConnector Association="MprDataModel.FK_TransducerChannelSpec_Transducers" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageLevelPanels_mdVoltageLevels" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageLevels_msSubstationStructures" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageLevels_msSubstationStructures1" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageLevels_msSubstationStructures2" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageLevels_msSubstationStructures3" />
+        <AssociationConnector Association="MprDataModel.FK_mdWindings_mdVoltageTransformers" />
+        <AssociationConnector Association="MprDataModel.FK_msBayRelayFunctions_msSubstationStructures" />
+        <AssociationConnector Association="MprDataModel.FK_msStakeHolderContacts_msCompanies" />
+        <AssociationConnector Association="MprDataModel.FK_msRequiredQuantities_msConsumables" />
+        <AssociationConnector Association="MprDataModel.FK_msDrawings_msSubstationStructures" />
+        <AssociationConnector Association="MprDataModel.FK_msGenSchemeComponents_msSubstationStructures" />
+        <AssociationConnector Association="MprDataModel.FK_msMimics_msSubstationStructures" />
+        <AssociationConnector Association="MprDataModel.FK_msPrimaryEquipmentDrawings_msPrimaryEquipments" />
+        <AssociationConnector Association="MprDataModel.FK_msPrimaryEquipments_msSubstationStructures" />
+        <AssociationConnector Association="MprDataModel.FK_msRequiredQuantities_msSubstationStructures" />
+        <AssociationConnector Association="MprDataModel.AspNetUserRoles" />
+        <AssociationConnector Association="MprDataModel.mdProjectStakeholderContacts" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

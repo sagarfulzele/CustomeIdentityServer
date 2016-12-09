@@ -1,0 +1,326 @@
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\roslyn\csc.exe
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\roslyn\System.Collections.Immutable.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\roslyn\vbc.exe
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\roslyn\VBCSCompiler.exe
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\roslyn\VBCSCompiler.exe.config
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\PSIMPRODataApi.dll.config
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\PSIMPRODataApi.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\PSIMPRODataApi.pdb
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Antlr3.Runtime.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\EntityFramework.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\EntityFramework.SqlServer.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\IdentityModel.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\IdentityServer3.AccessTokenValidation.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.AI.DependencyCollector.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.AI.Web.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.AI.WindowsServer.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.ApplicationInsights.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Data.Edm.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Data.OData.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.OData.Core.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.OData.Edm.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.Host.HttpListener.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.Hosting.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.Security.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.Security.Jwt.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Spatial.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Web.Infrastructure.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Newtonsoft.Json.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Owin.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Net.Http.Formatting.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Spatial.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Cors.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Helpers.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Http.Cors.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Http.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Http.OData.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Http.Owin.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Http.WebHost.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Mvc.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.OData.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Optimization.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Razor.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.WebPages.Deployment.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.WebPages.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.WebPages.Razor.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\WebGrease.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\EntityFramework.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\EntityFramework.SqlServer.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\IdentityModel.pdb
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\IdentityServer3.AccessTokenValidation.pdb
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\IdentityServer3.AccessTokenValidation.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.AI.DependencyCollector.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.AI.Web.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.AI.WindowsServer.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.ApplicationInsights.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Data.Edm.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Data.OData.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.OData.Core.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.OData.Edm.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.Host.HttpListener.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.Hosting.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.Security.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.Security.Jwt.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Microsoft.Spatial.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Newtonsoft.Json.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.IdentityModel.Tokens.Jwt.pdb
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Spatial.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Http.Cors.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Http.OData.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Http.Owin.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.OData.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Net.Http.Formatting.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Helpers.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Http.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Http.WebHost.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Mvc.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Optimization.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.Razor.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.WebPages.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.WebPages.Deployment.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\System.Web.WebPages.Razor.xml
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\Antlr3.Runtime.pdb
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\de\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\es\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\it\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\de\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\es\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\fr\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\it\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ja\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ko\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ru\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\de\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\es\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\fr\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\it\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ja\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ko\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ru\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\zh-Hans\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\zh-Hant\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\de\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\es\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\fr\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\it\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ja\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ko\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ru\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\zh-Hans\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\zh-Hant\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\de\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\es\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\fr\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\it\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ja\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ko\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ru\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\zh-Hans\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\zh-Hant\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\de\System.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\es\System.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\fr\System.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\it\System.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ja\System.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ko\System.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\ru\System.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\zh-Hans\System.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\bin\zh-Hant\System.Spatial.resources.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\obj\Release\PSIMPRODataApi.csprojResolveAssemblyReference.cache
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\obj\Release\PSIMPRODataApi.dll
+D:\ProjectsCrp\WIP\IDS4\MVC and API\MVC and API\PSIMPRODataApi\obj\Release\PSIMPRODataApi.pdb
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\roslyn\csc.exe
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\roslyn\System.Collections.Immutable.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\roslyn\vbc.exe
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\roslyn\VBCSCompiler.exe
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\roslyn\VBCSCompiler.exe.config
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\PSIMPRODataApi.dll.config
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\PSIMPRODataApi.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\PSIMPRODataApi.pdb
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Antlr3.Runtime.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\EntityFramework.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\EntityFramework.SqlServer.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\IdentityModel.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\IdentityServer3.AccessTokenValidation.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.AI.DependencyCollector.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.AI.Web.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.AI.WindowsServer.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.ApplicationInsights.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Data.Edm.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Data.OData.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.OData.Core.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.OData.Edm.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.Host.HttpListener.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.Hosting.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.Security.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.Security.Jwt.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Spatial.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Web.Infrastructure.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Newtonsoft.Json.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Owin.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Net.Http.Formatting.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Spatial.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Cors.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Helpers.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Http.Cors.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Http.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Http.OData.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Http.Owin.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Http.WebHost.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Mvc.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.OData.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Optimization.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Razor.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.WebPages.Deployment.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.WebPages.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.WebPages.Razor.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\WebGrease.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\EntityFramework.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\EntityFramework.SqlServer.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\IdentityModel.pdb
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\IdentityServer3.AccessTokenValidation.pdb
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\IdentityServer3.AccessTokenValidation.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.AI.DependencyCollector.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.AI.Web.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.AI.WindowsServer.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.ApplicationInsights.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Data.Edm.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Data.OData.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.OData.Core.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.OData.Edm.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.Host.HttpListener.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.Hosting.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.Security.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.Security.Jwt.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Microsoft.Spatial.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Newtonsoft.Json.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.IdentityModel.Tokens.Jwt.pdb
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Spatial.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Http.Cors.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Http.OData.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Http.Owin.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.OData.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Net.Http.Formatting.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Helpers.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Http.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Http.WebHost.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Mvc.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Optimization.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.Razor.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.WebPages.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.WebPages.Deployment.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\System.Web.WebPages.Razor.xml
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\Antlr3.Runtime.pdb
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\de\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\es\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\it\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\de\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\es\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\fr\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\it\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ja\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ko\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ru\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\de\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\es\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\fr\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\it\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ja\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ko\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ru\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\zh-Hans\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\zh-Hant\Microsoft.OData.Core.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\de\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\es\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\fr\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\it\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ja\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ko\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ru\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\zh-Hans\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\zh-Hant\Microsoft.OData.Edm.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\de\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\es\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\fr\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\it\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ja\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ko\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ru\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\zh-Hans\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\zh-Hant\Microsoft.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\de\System.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\es\System.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\fr\System.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\it\System.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ja\System.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ko\System.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\ru\System.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\zh-Hans\System.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\bin\zh-Hant\System.Spatial.resources.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\obj\Release\PSIMPRODataApi.csprojResolveAssemblyReference.cache
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\obj\Release\PSIMPRODataApi.dll
+D:\ProjectsCrp\ProjectCode\IDS4\PSIMPRODataApi\obj\Release\PSIMPRODataApi.pdb

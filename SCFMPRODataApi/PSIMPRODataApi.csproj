@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{32832BED-708D-4984-98CA-DBD10026DB39}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PsiMprODataApi</RootNamespace>
+    <AssemblyName>PsiMprODataApi</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IdentityModel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IdentityModel.1.9.2\lib\net45\IdentityModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IdentityServer3.AccessTokenValidation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IdentityServer3.AccessTokenValidation.2.10.0\lib\net45\IdentityServer3.AccessTokenValidation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.1.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.1.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.1.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.1.0\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNetCore.Hosting.Abstractions.1.0.0\lib\net451\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNetCore.Hosting.Server.Abstractions.1.0.0\lib\net451\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNetCore.Http.Abstractions.1.0.0\lib\net451\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNetCore.Http.Features.1.0.0\lib\net451\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Data.Edm, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.Edm.5.7.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.OData.5.7.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.EntityFrameworkCore.1.0.0\lib\net451\Microsoft.EntityFrameworkCore.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Design.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.EntityFrameworkCore.Design.Core.1.0.0-preview2-final\lib\net451\Microsoft.EntityFrameworkCore.Design.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.EntityFrameworkCore.Relational.1.0.0\lib\net451\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.EntityFrameworkCore.Relational.Design.1.0.0\lib\net451\Microsoft.EntityFrameworkCore.Relational.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.SqlServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.EntityFrameworkCore.SqlServer.1.0.0\lib\net451\Microsoft.EntityFrameworkCore.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.SqlServer.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.EntityFrameworkCore.SqlServer.Design.1.0.0\lib\net451\Microsoft.EntityFrameworkCore.SqlServer.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Tools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.EntityFrameworkCore.Tools.1.0.0-preview2-final\lib\net451\Microsoft.EntityFrameworkCore.Tools.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Caching.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Caching.Memory.1.0.0\lib\net451\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.CommandLineUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.CommandLineUtils.1.0.0\lib\net451\Microsoft.Extensions.CommandLineUtils.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Configuration.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.1.0.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.FileProviders.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Logging.1.0.0\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Logging.Abstractions.1.0.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Options.1.0.0\lib\netstandard1.0\Microsoft.Extensions.Options.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Primitives.1.0.0\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocol.Extensions, Version=1.0.2.33, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Protocol.Extensions.1.0.2.206221351\lib\net45\Microsoft.IdentityModel.Protocol.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.OData.Core, Version=6.15.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.OData.Core.6.15.0\lib\portable-net45+win+wpa81\Microsoft.OData.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.OData.Edm, Version=6.15.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.OData.Edm.6.15.0\lib\portable-net45+win+wpa81\Microsoft.OData.Edm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.HttpListener, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.HttpListener.2.0.2\lib\net45\Microsoft.Owin.Host.HttpListener.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Hosting, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Hosting.2.0.2\lib\net45\Microsoft.Owin.Hosting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Jwt, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Jwt.3.0.1\lib\net45\Microsoft.Owin.Security.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Spatial, Version=6.15.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Spatial.6.15.0\lib\portable-net45+win+wpa81\Microsoft.Spatial.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Remotion.Linq, Version=2.1.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>packages\Remotion.Linq.2.1.1\lib\net45\Remotion.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\System.Collections.Immutable.1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.4.0.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.20622.1351, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.4.0.2.206221351\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Interactive.Async, Version=3.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>packages\System.Interactive.Async.3.0.0\lib\net45\System.Interactive.Async.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Spatial, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Spatial.5.7.0\lib\net40\System.Spatial.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Encodings.Web.4.0.0\lib\netstandard1.0\System.Text.Encodings.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.3\lib\net45\System.Web.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.3\lib\net45\System.Web.Http.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.OData, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.OData.5.7.0\lib\net45\System.Web.Http.OData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.Owin, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.3\lib\net45\System.Web.Http.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.OData, Version=5.9.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.OData.5.9.1\lib\net45\System.Web.OData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="App_Start\MatchAllRoutingConvention.cs" />
+    <Compile Include="App_Start\MprOdataHelprer.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AspNetRoleClaimsController.cs" />
+    <Compile Include="Controllers\AspNetRolesController.cs" />
+    <Compile Include="Controllers\AspNetUsersController.cs" />
+    <Compile Include="Controllers\mdAllComponentsFromSchemesController.cs" />
+    <Compile Include="Controllers\mdAllTerminalBlocksFromSchemesController.cs" />
+    <Compile Include="Controllers\mdAnnunciatorsController.cs" />
+    <Compile Include="Controllers\mdArrangementAcLoopRowsController.cs" />
+    <Compile Include="Controllers\mdArrangementAnnunciationRowsController.cs" />
+    <Compile Include="Controllers\mdArrangementPanelRowsController.cs" />
+    <Compile Include="Controllers\mdArrangementsIndicationRowsController.cs" />
+    <Compile Include="Controllers\mdArrangementSynchCircuitRowsController.cs" />
+    <Compile Include="Controllers\mdAuxiliaryComponentsController.cs" />
+    <Compile Include="Controllers\mdAuxiliaryRelaysController.cs" />
+    <Compile Include="Controllers\mdBaysController.cs" />
+    <Compile Include="Controllers\mdBPanelsController.cs" />
+    <Compile Include="Controllers\mdCircuitBreakersController.cs" />
+    <Compile Include="Controllers\mdConsumableItemsController.cs" />
+    <Compile Include="Controllers\mdContactDetailsController.cs" />
+    <Compile Include="Controllers\mdContractPrimaryDeliverablesController.cs" />
+    <Compile Include="Controllers\mdContractSecondaryDeliverablesController.cs" />
+    <Compile Include="Controllers\mdCoresController.cs" />
+    <Compile Include="Controllers\mdCurrentTransformersController.cs" />
+    <Compile Include="Controllers\mdCustomerDeliverableDatesController.cs" />
+    <Compile Include="Controllers\mdCustomerDeliverableVoltagesController.cs" />
+    <Compile Include="Controllers\mdDoubleLogoesController.cs" />
+    <Compile Include="Controllers\mdEarthSwitchesController.cs" />
+    <Compile Include="Controllers\mdExternalStakeHoldersController.cs" />
+    <Compile Include="Controllers\mdFileTimesController.cs" />
+    <Compile Include="Controllers\mdInternalStakeHoldersController.cs" />
+    <Compile Include="Controllers\mdIsolatorsController.cs" />
+    <Compile Include="Controllers\mdLogoDetailsController.cs" />
+    <Compile Include="Controllers\mdMainRelaysController.cs" />
+    <Compile Include="Controllers\mdMasterProjectSchedulesController.cs" />
+    <Compile Include="Controllers\mdMetersController.cs" />
+    <Compile Include="Controllers\mdPanelComponentsController.cs" />
+    <Compile Include="Controllers\mdPanelFunctionsController.cs" />
+    <Compile Include="Controllers\mdPanelFunctionsSubsController.cs" />
+    <Compile Include="Controllers\mdPanelsController.cs" />
+    <Compile Include="Controllers\mdPanelSizesController.cs" />
+    <Compile Include="Controllers\mdPanelSizesSubsController.cs" />
+    <Compile Include="Controllers\mdPanelsSubsController.cs" />
+    <Compile Include="Controllers\mdPowerTransformersController.cs" />
+    <Compile Include="Controllers\mdPRDatasController.cs" />
+    <Compile Include="Controllers\mdPrimaryEquipmentsController.cs" />
+    <Compile Include="Controllers\mdProjectLogoesController.cs" />
+    <Compile Include="Controllers\mdProjects1Controller.cs" />
+    <Compile Include="Controllers\mdProjectsController.cs" />
+    <Compile Include="Controllers\mdProjectStakeHoldersController.cs" />
+    <Compile Include="Controllers\mdRemoteEndDetailsController.cs" />
+    <Compile Include="Controllers\mdRevisionHistoriesController.cs" />
+    <Compile Include="Controllers\mdSchematicProjectPathsController.cs" />
+    <Compile Include="Controllers\mdSchematicProjectsController.cs" />
+    <Compile Include="Controllers\mdSingleLogoesController.cs" />
+    <Compile Include="Controllers\mdSPanelsController.cs" />
+    <Compile Include="Controllers\mdSubstationsController.cs" />
+    <Compile Include="Controllers\mdTerminalBlocksController.cs" />
+    <Compile Include="Controllers\mdTestBlocksController.cs" />
+    <Compile Include="Controllers\mdTransducerChannelSpecsController.cs" />
+    <Compile Include="Controllers\mdTransducersController.cs" />
+    <Compile Include="Controllers\mdVoltageLevelsController.cs" />
+    <Compile Include="Controllers\mdVoltageTransformersController.cs" />
+    <Compile Include="Controllers\mdVPanelsController.cs" />
+    <Compile Include="Controllers\mdWindingsController.cs" />
+    <Compile Include="Controllers\msBayRelayFunctionsController.cs" />
+    <Compile Include="Controllers\msBayTypesController.cs" />
+    <Compile Include="Controllers\msBusConfigurationsController.cs" />
+    <Compile Include="Controllers\msCommunicationTypesController.cs" />
+    <Compile Include="Controllers\msCompaniesController.cs" />
+    <Compile Include="Controllers\msComponentCategoriesController.cs" />
+    <Compile Include="Controllers\msConsumablesController.cs" />
+    <Compile Include="Controllers\msContactDetailsController.cs" />
+    <Compile Include="Controllers\msControlFunctionsController.cs" />
+    <Compile Include="Controllers\msCtCoreFunctionsController.cs" />
+    <Compile Include="Controllers\msCustomerDeliverablesController.cs" />
+    <Compile Include="Controllers\msDrawingFunctionsController.cs" />
+    <Compile Include="Controllers\msDrawingsController.cs" />
+    <Compile Include="Controllers\msDrawingTypesController.cs" />
+    <Compile Include="Controllers\msGenSchemeComponentsController.cs" />
+    <Compile Include="Controllers\msInitialsController.cs" />
+    <Compile Include="Controllers\msInsulationTypesController.cs" />
+    <Compile Include="Controllers\msLocationDesignationsController.cs" />
+    <Compile Include="Controllers\msLogoTypesController.cs" />
+    <Compile Include="Controllers\msMimicsController.cs" />
+    <Compile Include="Controllers\msMPRSettingsController.cs" />
+    <Compile Include="Controllers\msPanelArgTypesController.cs" />
+    <Compile Include="Controllers\msPanelsController.cs" />
+    <Compile Include="Controllers\msPanelTypesController.cs" />
+    <Compile Include="Controllers\msPrimaryEquipmentDrawingsController.cs" />
+    <Compile Include="Controllers\msPrimaryEquipmentsController.cs" />
+    <Compile Include="Controllers\msProtectionFunctionsController.cs" />
+    <Compile Include="Controllers\msPsiAttsController.cs" />
+    <Compile Include="Controllers\msPsiAttWireNoesController.cs" />
+    <Compile Include="Controllers\msRelayFunctionsController.cs" />
+    <Compile Include="Controllers\msRequiredQuantitiesController.cs" />
+    <Compile Include="Controllers\msScheduleHItemsController.cs" />
+    <Compile Include="Controllers\msStakeHolderContactsController.cs" />
+    <Compile Include="Controllers\msSubstationObjectTypesController.cs" />
+    <Compile Include="Controllers\msSubstationStructuresController.cs" />
+    <Compile Include="Controllers\msSubstationTypesController.cs" />
+    <Compile Include="Controllers\msTNBApprovedEquipmentsController.cs" />
+    <Compile Include="Controllers\msVoltageLevelsController.cs" />
+    <Compile Include="Controllers\msVtWindingFuncitonsController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountBindingModels.cs" />
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AspNetRole.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AspNetRoleClaim.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AspNetUser.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AspNetUserClaim.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AspNetUserLogin.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdAllComponentsFromScheme.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdAllTerminalBlocksFromScheme.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdAnnunciator.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdArrangementAcLoopRow.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdArrangementAnnunciationRow.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdArrangementPanelRow.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdArrangementsIndicationRow.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdArrangementSynchCircuitRow.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdAuxiliaryComponent.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdAuxiliaryRelay.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdBay.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdBPanel.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdCircuitBreaker.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdConsumableItem.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdContactDetail.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdContractPrimaryDeliverable.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdContractSecondaryDeliverable.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdCore.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdCurrentTransformer.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdCustomerDeliverableDate.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdCustomerDeliverableVoltage.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdDoubleLogo.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdEarthSwitch.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdExternalStakeHolder.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdFileTime.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdInternalStakeHolder.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdIsolator.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdLogoDetail.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdMainRelay.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdMasterProjectSchedule.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdMeter.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdPanel.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdPanelComponent.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdPanelFunction.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdPanelFunctionsSub.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdPanelSize.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdPanelSizesSub.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdPanelsSub.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdPowerTransformer.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdPRData.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdPrimaryEquipment.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdProject.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdProjectLogo.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdProjectStakeHolder.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdRemoteEndDetail.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdRevisionHistory.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdSchematicProject.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdSchematicProjectPath.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdSingleLogo.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdSPanel.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdSubstation.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdTerminalBlock.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdTestBlock.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdTransducer.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdTransducerChannelSpec.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdVoltageLevel.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdVoltageTransformer.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdVPanel.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\mdWinding.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MprDataContext.Context2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MprDataContext.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MprDataContext.cs" />
+    <Compile Include="Models\MprDataContext.Designer.cs">
+      <DependentUpon>MprDataContext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MprDataContext1.cs" />
+    <Compile Include="Models\MprDataContext1.Designer.cs">
+      <DependentUpon>MprDataContext1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MprDataContext2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MprDataContext2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MprDataContext.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msBayRelayFunction.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msBayType.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msBusConfiguration.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msCommunicationType.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msCompany.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msComponentCategory.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msConsumable.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msContactDetail.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msControlFunction.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msCtCoreFunction.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msCustomerDeliverable.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msDrawing.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msDrawingFunction.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msDrawingType.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msGenSchemeComponent.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msInitial.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msInsulationType.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msLocationDesignation.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msLogoType.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msMimic.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msMPRSetting.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msPanel.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msPanelArgType.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msPanelType.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msPrimaryEquipment.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msPrimaryEquipmentDrawing.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msProtectionFunction.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msPsiAtt.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msPsiAttWireNo.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msRelayFunction.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msRequiredQuantity.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msScheduleHItem.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msStakeHolderContact.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msSubstationObjectType.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msSubstationStructure.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msSubstationType.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msTNBApprovedEquipment.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msVoltageLevel.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\msVtWindingFunciton.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_EmailNotificationDateOfReceived_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_EmailNotificationDesignStart_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_EmailNotificationFirstTime_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_msBayRelayFunctions_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_msBayTypes_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_msConsumables_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_msDrawings_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_msMimics_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_msPanelTypes_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_msPrimaryEquipmentDrawings_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_msPrimaryEquipments_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_msRelayFunctions_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_msRequiredQuantities_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_Settings_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_SubstationStructures_Result.cs">
+      <DependentUpon>MprDataContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Models\MprDataContext.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>MprDataContext.Context2.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\MprDataContext.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>MprDataContext2.cs</LastGenOutput>
+    </Content>
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <EntityDeploy Include="Models\MprDataContext.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MprDataContext2.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\MprDataContext.edmx.diagram">
+      <DependentUpon>MprDataContext.edmx</DependentUpon>
+    </Content>
+    <None Include="Project_Readme.html" />
+    <None Include="Properties\PublishProfiles\Mpr Odata Web Api.pubxml" />
+    <None Include="Properties\PublishProfiles\PSIMPRWebApi.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55716</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55716/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

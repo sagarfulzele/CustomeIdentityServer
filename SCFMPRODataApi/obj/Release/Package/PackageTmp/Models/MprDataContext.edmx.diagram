@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4ff527458341496d97f59b547fab6b83" Name="Diagram1">
+        <EntityTypeShape EntityType="MprDataModel.C__EFMigrationsHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.AspNetRoleClaim" Width="1.5" PointX="5.25" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.AspNetRole" Width="1.5" PointX="3" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.AspNetUserClaim" Width="1.5" PointX="3" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.AspNetUserLogin" Width="1.5" PointX="3" PointY="67.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.AspNetUser" Width="1.5" PointX="0.75" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdAllComponentsFromScheme" Width="1.5" PointX="15.75" PointY="92.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdAllTerminalBlocksFromScheme" Width="1.5" PointX="15.75" PointY="97.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdAnnunciator" Width="1.5" PointX="15.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdArrangementAcLoopRow" Width="1.5" PointX="13.5" PointY="77.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdArrangementAnnunciationRow" Width="1.5" PointX="13.5" PointY="81" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdArrangementPanelRow" Width="1.5" PointX="13.5" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdArrangementsIndicationRow" Width="1.5" PointX="13.5" PointY="86.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdArrangementSynchCircuitRow" Width="1.5" PointX="13.5" PointY="89.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdAuxiliaryComponent" Width="1.5" PointX="15.75" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdAuxiliaryRelay" Width="1.5" PointX="15.75" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdBay" Width="1.5" PointX="20.75" PointY="89.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdBPanel" Width="1.5" PointX="18" PointY="80.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdCircuitBreaker" Width="1.5" PointX="25.25" PointY="89.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdConsumableItem" Width="1.5" PointX="15.75" PointY="44" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdContactDetail" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdContractPrimaryDeliverable" Width="1.5" PointX="11.25" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdContractSecondaryDeliverable" Width="1.5" PointX="11.25" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdCore" Width="1.5" PointX="27.5" PointY="92.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdCurrentTransformer" Width="1.5" PointX="25.25" PointY="94.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdCustomerDeliverableDate" Width="1.5" PointX="13.5" PointY="59.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdCustomerDeliverableVoltage" Width="1.5" PointX="11.25" PointY="60" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdDoubleLogo" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdEarthSwitch" Width="1.5" PointX="25.25" PointY="98.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdExternalStakeHolder" Width="1.5" PointX="14.25" PointY="64.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdFileTime" Width="1.5" PointX="15.75" PointY="102" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdInternalStakeHolder" Width="1.5" PointX="6" PointY="65.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdIsolator" Width="1.5" PointX="25.25" PointY="100.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdLogoDetail" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdMainRelay" Width="1.5" PointX="15.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdMasterProjectSchedule" Width="1.5" PointX="11.25" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdMeter" Width="1.5" PointX="15.75" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanelComponent" Width="1.5" PointX="13.5" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanelFunction" Width="1.5" PointX="18" PointY="84.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanelFunctionsSub" Width="1.5" PointX="8" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanel" Width="1.5" PointX="15.75" PointY="79.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanelSize" Width="1.5" PointX="13.5" PointY="73.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanelSizesSub" Width="1.5" PointX="8" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdPanelsSub" Width="1.5" PointX="5.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdPowerTransformer" Width="1.5" PointX="25.25" PointY="103.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdPRData" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdPrimaryEquipment" Width="1.5" PointX="23" PointY="98.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdProjectLogo" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdProject" Width="1.5" PointX="9" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdProjectStakeHolder" Width="1.5" PointX="14.25" PointY="68.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdRemoteEndDetail" Width="1.5" PointX="20.75" PointY="112" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdRevisionHistory" Width="1.5" PointX="11.25" PointY="74.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdSchematicProjectPath" Width="1.5" PointX="13.5" PointY="97" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdSchematicProject" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdSingleLogo" Width="1.5" PointX="6" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdSPanel" Width="1.5" PointX="21" PointY="86.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdSubstation" Width="1.5" PointX="11.25" PointY="88.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdTerminalBlock" Width="1.5" PointX="15.75" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdTestBlock" Width="1.5" PointX="15.75" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdTransducerChannelSpec" Width="1.5" PointX="18" PointY="56.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdTransducer" Width="1.5" PointX="15.75" PointY="56.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdVoltageLevel" Width="1.5" PointX="18.5" PointY="88.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdVoltageTransformer" Width="1.5" PointX="25.25" PointY="109.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdVPanel" Width="1.5" PointX="20.75" PointY="83.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.mdWinding" Width="1.5" PointX="27.5" PointY="108.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msBayRelayFunction" Width="1.5" PointX="9" PointY="72.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msBayType" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msBusConfiguration" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msCommunicationType" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msCompany" Width="1.5" PointX="6.75" PointY="56.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msComponentCategory" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msConsumable" Width="1.5" PointX="13.75" PointY="105.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msContactDetail" Width="1.5" PointX="10.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msControlFunction" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msCtCoreFunction" Width="1.5" PointX="2.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msCustomerDeliverable" Width="1.5" PointX="11.25" PointY="57" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msDrawingFunction" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msDrawing" Width="1.5" PointX="9" PointY="75.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msDrawingType" Width="1.5" PointX="12.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msInitial" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msInsulationType" Width="1.5" PointX="12.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msLocationDesignation" Width="1.5" PointX="10.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msLogoType" Width="1.5" PointX="12.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msMimic" Width="1.5" PointX="9" PointY="78.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msMPRSetting" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msPanelArgType" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msPanel" Width="1.5" PointX="2.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msPanelType" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msPrimaryEquipmentDrawing" Width="1.5" PointX="11.25" PointY="80.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msPrimaryEquipment" Width="1.5" PointX="9" PointY="80.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msProtectionFunction" Width="1.5" PointX="4.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msPsiAtt" Width="1.5" PointX="14.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msPsiAttWireNo" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msRelayFunction" Width="1.5" PointX="14.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msRequiredQuantity" Width="1.5" PointX="16" PointY="72.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msScheduleHItem" Width="1.5" PointX="6.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msStakeHolderContact" Width="1.5" PointX="16.5" PointY="67.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msSubstationObjectType" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msSubstationStructure" Width="1.5" PointX="6.75" PointY="68.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msSubstationType" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msTNBApprovedEquipment" Width="1.5" PointX="16.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msVoltageLevel" Width="1.5" PointX="16.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.msVtWindingFunciton" Width="1.5" PointX="12.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MprDataModel.sysdiagram" Width="1.5" PointX="14.75" PointY="16.75" IsExpanded="true" />
+        <AssociationConnector Association="MprDataModel.FK_IdentityRoleClaim_string__IdentityRole_RoleId" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_IdentityUserClaim_string__ApplicationUser_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_IdentityUserLogin_string__ApplicationUser_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdInternalStakeHolders_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_AspNetUsers1" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_AspNetUsers10" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_AspNetUsers2" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_AspNetUsers3" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_AspNetUsers4" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_AspNetUsers5" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_AspNetUsers6" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_AspNetUsers7" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_AspNetUsers8" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_AspNetUsers9" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_AllComponentsFromScheme_SchematicProjectPaths" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_AllTerminalBlocksFromSchemem_SchematicProjectPaths" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdAnnunciators_mdPanelComponents" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdArrangementAcLoopRows_mdSubstations" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdArrangementAcLoopRows" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdArrangementAnnunciationRows_mdSubstations" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdArrangementAnnunciationRows" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdArrangementPanelRows_mdSubstations" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdArrangementPanelRows" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdArrangementsIndicationRows_mdSubstations" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdArrangementsIndicationRows" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdArrangementSynchCircuitRows_mdSubstations" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdArrangementSynchCircuitRows" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdAuxiliaryComponents_mdPanelComponents" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdAuxiliaryRelays_mdPanelComponents" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_Bays_VoltageLevels" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdBayLevelPanels_mdBays" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdBays_msSubstationStructures" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdPrimaryEquipments_mdBays" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdBPanels_mdPanels" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdCircuitBreakers_mdPrimaryEquipments" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdConsumableItems_mdPanelComponents" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_ContactDetails_LogoDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdContractPrimaryDeliverables_mdProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdContractSecondaryDeliverables_mdProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanelComponents_mdContractSecondaryDeliverables" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdCores_mdCurrentTransformers1" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdCurrentTransformers_mdPrimaryEquipments" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdCustomerDeliverableDates_mdCustomerDeliverableVoltages" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdCustomerDeliverableDates_msCustomerDeliverables" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdCustomerDeliverableVoltages_mdProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_DoubleLogos_LogoDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_DoubleLogos_LogoDetail1" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_DoubleLogos_ProjectLogos" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdEarthSwitches_mdPrimaryEquipments" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdExternalStakeHolders_mdProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdExternalStakeHolders_msStakeHolderContacts" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_FileTime_SchematicProjectPaths" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdInternalStakeHolders_mdProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdIsolators_mdPrimaryEquipments" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_SingleLogos_LogoDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdMainRelays_mdPanelComponents" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdMasterProjectSchedules_mdProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdMeters_mdPanelComponents" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdTerminalBlocks_mdPanelComponents" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdTestBlocks_mdPanelComponents" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdTransducers_mdPanelComponents" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_PanelFunctions_Panels" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_PanelFunctionsSub_PanelsSub" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdPanels" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_mdPanelSizes" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdPanels_msSubstationStructures" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdSPanels_mdPanels" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdVPanels_mdPanels" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_PanelSizesSub_PanelsSub" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdPowerTransformers_mdPrimaryEquipments" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageTransformers_mdPrimaryEquipments" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_SingleLogos_ProjectLogos" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_msCompanies" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_msSubstationStructures" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjectStakeHolders_mdProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdRevisionHistories_mdProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_SubstationData_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjectStakeHolders_msCompanies" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_RemoteEndDetails_VoltageLevels" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_SchematicProjectPaths_SubstationData" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdSubstationLevelPanels_mdSubstations" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageLevels_mdSubstations" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_TransducerChannelSpec_Transducers" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageLevelPanels_mdVoltageLevels" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageLevels_msSubstationStructures" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageLevels_msSubstationStructures1" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageLevels_msSubstationStructures2" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdVoltageLevels_msSubstationStructures3" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_mdWindings_mdVoltageTransformers" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_msBayRelayFunctions_msSubstationStructures" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_msStakeHolderContacts_msCompanies" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_msRequiredQuantities_msConsumables" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_msDrawings_msSubstationStructures" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_msMimics_msSubstationStructures" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_msPrimaryEquipmentDrawings_msPrimaryEquipments" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_msPrimaryEquipments_msSubstationStructures" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.FK_msRequiredQuantities_msSubstationStructures" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.AspNetUserRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="MprDataModel.mdProjectStakeholderContacts" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MprDataModel.msGenSchemeComponent" Width="1.5" PointX="9" PointY="55.25" />
+        <AssociationConnector Association="MprDataModel.FK_mdProjects_AspNetUsers11" />
+        <AssociationConnector Association="MprDataModel.FK_msGenSchemeComponents_msSubstationStructures" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

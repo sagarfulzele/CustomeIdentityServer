@@ -1,0 +1,15 @@
+﻿@model PSIIDS4.Models.LoggedOutViewModel
+
+<div class="page-header panel" >
+    <h1>
+        Logout
+        <small>You are now logged out</small>
+    </h1>
+
+    <div hide-if-null="Model.PostLogoutRedirectUri">
+        Click <a style="cursor:pointer;" href="@(Model.PostLogoutRedirectUri == "" ? "../Login" : Model.PostLogoutRedirectUri)">here</a> to return to the
+        <span>@Model.ClientName</span> application.
+    </div>
+
+    <iframe style="display:none" width="0" height="0" hide-if-null="Model.SignOutIframeUrl" class="signout" src="@Model.SignOutIframeUrl"></iframe>
+</div>
